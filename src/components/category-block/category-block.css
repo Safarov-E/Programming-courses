@@ -1,0 +1,39 @@
+.block-category {
+    background: #392e5c;
+    color: #dad8de;
+}
+.section-block-title {
+    padding-top: 25px;
+    font-family: "Montserrat",sans-serif;
+    font-weight: 600;
+    font-size: 1.5rem;
+    line-height: 1.4;
+    color: inherit;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.popular-categories {
+    padding: 10px 0 20px;
+    margin: 0 -10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+}
+.popular-categories-icon {
+    max-width: 36px;
+    max-height: 36px;
+    margin-right: 17px;
+}
+.popular-categories-name {
+    text-transform: uppercase;
+    padding: 15px 17px;
+}
+.popular-categories-item {
+    border: 1px solid #201c2b;
+    padding: 15px 17px;
+    background: #201c2b;
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}

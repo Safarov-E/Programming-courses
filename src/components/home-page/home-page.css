@@ -66,3 +66,47 @@ a {
     position: absolute;
     margin: auto;
 }
+.main-header-side {
+    display: flex;
+    align-items: center;
+}
+.main-header-logo {
+    margin-right: 15px;
+}
+.main-header-side-right {
+    display: flex;
+    align-items: center;
+}
+.main-header-donate {
+    color: #dad8de;
+    text-transform: uppercase;
+    border: 1px solid black;
+    background-image: linear-gradient(134deg,#944fff 0,#af00ed 100%);
+    border-radius: 2px;
+    padding: 13px;
+    margin-right: 15px;
+}
+.main-header-link {
+    color: #dad8de;
+    font-weight: 600;
+    font-size: .875rem;
+    line-height: normal;
+    text-transform: uppercase;
+    white-space: nowrap;
+}
+.main-header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    padding: 10px;
+}
+.notification {
+    font-size: 56px;
+    line-height: 64px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 60px;
+    color: #dad8de;
+}
