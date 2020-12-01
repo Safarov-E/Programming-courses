@@ -1,0 +1,33 @@
+.btn-outline {
+    color: #fff;
+    border-radius: 2px;
+    border: 1px solid  #fff;
+    text-transform: uppercase;
+    padding: 15px 35px;
+    text-decoration: none;
+    background: transparent;
+    cursor: pointer;
+}
+.btn-outline:hover {
+    border: 1px solid #847d7d;
+    color: #847d7d;
+    outline: none;
+}
+.footer-icons {
+    display: flex;
+    width: 1400px;
+    margin: 15px auto;
+    justify-content: space-between;
+}
+.footer-icons-ul {
+    display: flex;
+    align-items: center;
+}
+.footer-icons-ul li {
+    margin-right: 15px;
+}
+.main-footer--hr {
+    height: 1px;
+    border: none;
+    border-bottom: 1px solid #3c3c3c;
+}
