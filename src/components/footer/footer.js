@@ -10,6 +10,9 @@ import githubIcons from '../../assets/img/github-logo_icon-icons.com_73546.png'
 import './footer.css'
 
 export default class Footer extends Component {
+    backToTop = () => {
+        window.scrollTo(0, 0)
+    }
     render() {
         return (
             <footer>
@@ -58,7 +61,9 @@ export default class Footer extends Component {
                                     </a>
                                 </li>
                             </ul>
-                            <button class="btn-outline">Вверх</button>
+                            <button 
+                                class="btn-outline" 
+                                onClick={this.backToTop}>Вверх</button>
                         </div>
                         <hr className="main-footer--hr" />
                     </div>
