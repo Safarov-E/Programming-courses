@@ -1,7 +1,5 @@
 import React, { Component } from 'react'
-import CategoryBlock from '../category-block'
-import logo from '../../assets/img/logo_5e051af088646.png'
-import Footer from '../footer'
+import logo from '../../../assets/img/logo_5e051af088646.png'
 import './home-page.css'
 
 export default class HomePage extends Component {
@@ -42,12 +40,6 @@ export default class HomePage extends Component {
                     </div>
                 </div>
             </header>
-            <div className="notification">
-                <p>Станьте программистом <br />
-                и откройте для себя более 20 000<br /> вакансий по всей России</p>
-            </div>
-            <CategoryBlock />
-            <Footer />
             </>
         )
     }

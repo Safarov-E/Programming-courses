@@ -1,10 +1,10 @@
 import React, { Component } from 'react'
-import HomePage from '../home-page'
+import CategoryBlock from '../category-block'
 
 export default class App extends Component {
     render() {
         return (
-            <HomePage />
+            <CategoryBlock />
         )
     }
 }
