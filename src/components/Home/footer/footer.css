@@ -15,7 +15,7 @@
 }
 .footer-icons {
     display: flex;
-    width: 1400px;
+    width: 1300px;
     margin: 15px auto;
     justify-content: space-between;
 }
@@ -30,4 +30,29 @@
     height: 1px;
     border: none;
     border-bottom: 1px solid #3c3c3c;
+}
+.footer-main-wrapper {
+    display: flex;
+    width: 1300px;
+    margin: 20px auto;
+    justify-content: space-around;
+}
+.footer-main-link {
+    color: #dadada;
+    text-transform: uppercase;
+    letter-spacing: .9px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.footer-list {
+    padding-top: 15px;
+}
+.footer-item {
+    color: #868585;
+    text-decoration: none;
+    font-size: 15px;
+    line-height: 23px;
+    letter-spacing: .4px;
+    font-weight: 500;
+    cursor: pointer;
 }

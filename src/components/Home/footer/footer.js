@@ -67,6 +67,55 @@ export default class Footer extends Component {
                         </div>
                         <hr className="main-footer--hr" />
                     </div>
+                    <div className="footer-main-wrapper">
+                        <div className="footer-main-column">
+                            <a className="footer-main-link" href="#">Материалы</a>
+                            <ul className="footer-list">
+                                <li><a class="footer-item" href="#">Лекции</a></li>
+                                <li><a class="footer-item" href="#">Карта лекций</a></li>
+                                <li><a class="footer-item" href="#">Тестирование</a></li>
+                                <li><a class="footer-item" href="#">Начать обучение</a></li>
+                            </ul>
+                        </div>
+                        <div className="footer-main-column">
+                            <a className="footer-main-link" href="#">ИНФОРМАЦИЯ</a>
+                            <ul className="footer-list">
+                                <li><a class="footer-item" href="#">О нас</a></li>
+                                <li><a class="footer-item" href="#">Для наставников</a></li>
+                                <li><a class="footer-item" href="#">Для учителей</a></li>
+                                <li><a class="footer-item" href="#">Для учащихся</a></li>
+                            </ul>
+                        </div>
+                        <div className="footer-main-column">
+                            <a className="footer-main-link" href="#">ПОДДЕРЖКА</a>
+                            <ul className="footer-list">
+                                <li><a class="footer-item" href="#">F.A.Q.</a></li>
+                                <li><a class="footer-item" href="#">Карат сайта</a></li>
+                                <li><a class="footer-item" href="#">О проекте</a></li>
+                                <li><a class="footer-item" href="#">Отзывы</a></li>
+                            </ul>
+                        </div>
+                        <div className="footer-main-column">
+                            <a className="footer-main-link" href="#">ИНТЕНСИВЫ</a>
+                            <ul className="footer-list">
+                                <li><a class="footer-item" href="#">Все интенсивы</a></li>
+                                <li><a class="footer-item" href="#">Получить профессию</a></li>
+                                <li><a class="footer-item" href="#">База выпускников</a></li>
+                                <li><a class="footer-item" href="#">Рекрутинг</a></li>
+                            </ul>
+                        </div>
+                        <div className="footer-main-column">
+                            <a className="footer-main-link" href="#">ОСТАЛЬНОЕ</a>
+                            <ul className="footer-list">
+                                <li><a class="footer-item" href="#">Написать нам</a></li>
+                                <li><a class="footer-item" href="#">Блог</a></li>
+                                <li><a class="footer-item" href="#">Форум</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div className="main-footer--dark-footer">
+
+                    </div>
                 </div>
             </footer>
         )
