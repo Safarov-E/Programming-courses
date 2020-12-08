@@ -15,7 +15,7 @@
 }
 .footer-icons {
     display: flex;
-    width: 1300px;
+    width: 56%;
     margin: 15px auto;
     justify-content: space-between;
 }
@@ -33,9 +33,9 @@
 }
 .footer-main-wrapper {
     display: flex;
-    width: 1300px;
+    width: 56%;
     margin: 20px auto;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 .footer-main-link {
     color: #dadada;

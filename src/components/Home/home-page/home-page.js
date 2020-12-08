@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import logo from '../../../assets/img/logo_5e051af088646.png'
+import logo from '../../../assets/img/logo.png'
 import './home-page.css'
 
 export default class HomePage extends Component {
@@ -10,7 +10,7 @@ export default class HomePage extends Component {
                 <div className="main-header-container">
                     <div className="main-header-side">
                         <span className="main-header-logo">
-                            <img src={logo} width="100px"/>
+                            <img src={logo} width="130px"/>
                         </span>
                         <nav className="menu">
                             <ul className="menu__list">

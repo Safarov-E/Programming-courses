@@ -15,7 +15,7 @@
 .popular-categories {
     padding: 10px 0 20px;
     margin: 0 -10px;
-    width: 1500px;
+    width: 70%;
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
@@ -53,16 +53,16 @@
     cursor: pointer;
 }
 .standard-block {
-    width: 1500px;
+    width: 70%;
     margin: 0 auto;
 }
 .standard-block h2 {
-    font-size: 50px;
+    font-size: 40px;
+    width: 80%;
     line-height: 64px;
     font-weight: 700;
     text-align: center;
-    margin-top: 60px;
-    margin-bottom: 80px;
+    margin: 60px auto 80px auto;
     color: #dad8de;
 }
 .standard-stepItem{
@@ -84,4 +84,13 @@
 }
 .standard-title {
     padding-bottom: 60px;
+}
+.notification {
+    font-size: 50px;
+    line-height: 64px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    color: #dad8de;
 }

@@ -103,12 +103,3 @@ a {
     margin: auto;
     padding: 10px 10px 0 10px;
 }
-.notification {
-    font-size: 56px;
-    line-height: 64px;
-    font-weight: 700;
-    text-align: center;
-    margin-top: 60px;
-    margin-bottom: 60px;
-    color: #dad8de;
-}

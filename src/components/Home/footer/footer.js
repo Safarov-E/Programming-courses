@@ -114,7 +114,16 @@ export default class Footer extends Component {
                         </div>
                     </div>
                     <div className="main-footer--dark-footer">
-
+                        <div className="dark-footer--container">
+                            <ul className="dark-footer--ul">
+                                <li><a>Пользовательское соглашение</a></li>
+                                <li><a>Политика конфиденциальности</a></li>
+                                <li><a>Политика cookie</a></li>
+                            </ul>
+                            <div className="dark-footer-copyrights">
+                                © GOJS, 2017-2018.
+                            </div>
+                        </div>
                     </div>
                 </div>
             </footer>
