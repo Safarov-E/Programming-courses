@@ -55,4 +55,45 @@
     letter-spacing: .4px;
     font-weight: 500;
     cursor: pointer;
+    transition: color .3s ease-in;
+}
+.footer-item:hover {
+    color: #fff;
+}
+.main-footer--dark-footer {
+    background: #1d1d1d;
+    color: #696969;
+    padding: 5px 10px 20px;
+    margin-top: 20px;
+}
+.dark-footer--ul {
+    margin-top: 21px;
+}
+.dark-footer--ul li {
+    display: inline-block;
+    padding-right: 20px;
+    cursor: pointer;
+    transition: color .3s ease-in;
+}
+.dark-footer--ul li:hover {
+    color: #fff;
+}
+.dark-footer-link {
+    color: #5d5d5d;
+    font-size: 12px;
+    font-weight: 500;
+    transition: color .3s ease-out;
+}
+.dark-footer-copyrights {
+    margin-top: 25px;
+    color: #5d5d5d;
+    font-size: 12px;
+    font-weight: 500;
+}
+.dark-footer--container {
+    max-width: 57%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
 }
