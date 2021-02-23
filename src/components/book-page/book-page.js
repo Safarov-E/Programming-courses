@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import HomePage from '../Home/home-page'
 import Footer from '../Home/footer'
+import loupe from '../../assets/img/loupe.png'
 import './book-page.css'
 
 export default class BookPage extends Component {
@@ -14,7 +15,8 @@ export default class BookPage extends Component {
                             <h2>Библиотека программиста</h2>
                             <p>Список наиболее часто рекомендуемых книг о программировании</p>
                             <div className="source-search">
-                                <input type="text" className="search-input" />
+                                <img src={loupe} />
+                                <input type="text" className="search-input" placeholder="Поиск по источниках" />
                             </div>
                         </div>
                     </div>

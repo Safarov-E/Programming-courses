@@ -20,9 +20,21 @@
 }
 .source-search {
     position: relative;
+    width: 640px;
+    margin: 20px auto 0;
 }
-.source-search .search-input::after {
+.source-search img {
     position: absolute;
-    content: url('../../assets/img/loupe.png');
-    z-index: 100;
+    top: 11px;
+    left: 7px;
+}
+.source-search input {
+    background-color: #201c2b;
+    border: 0;
+    outline: none;
+    color: #dad8de;
+    padding: 12px 0 12px 37px;
+    font-size: 18px;
+    width: 100%;
+    margin-bottom: 20px;
 }
