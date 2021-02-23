@@ -6,7 +6,16 @@ import data from './books/books';
 import './book-page.css'
 
 export default class BookPage extends Component {
+    state = {
+        query: ''
+    }
+    searchText = (event) => {
+        this.setState({query: event.target.value})
+    }
     render() {
+        let serachBook = data.filter((book) => {
+            return book.title.toLowerCase().indexOf(this.state.query) !== -1
+        })
         return (
             <>
                 <HomePage />
@@ -17,12 +26,14 @@ export default class BookPage extends Component {
                             <p>Список наиболее часто рекомендуемых книг о программировании</p>
                             <div className="source-search">
                                 <img src={loupe} />
-                                <input type="text" className="search-input" placeholder="Поиск по источниках" />
+                                <input type="text" className="search-input" 
+                                        placeholder="Поиск по источниках"
+                                        onKeyUp={this.searchText} />
                             </div>
                         </div>
                         <div className="container_cards">
                             {
-                                data.map((item) => {
+                                serachBook.map((item) => {
                                     return (
                                         <div className="product-card" key={item.id}>
                                             <img src={process.env.PUBLIC_URL + item.img} width="138px" height="199px" />
