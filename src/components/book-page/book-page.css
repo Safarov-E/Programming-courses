@@ -1,0 +1,28 @@
+.container_books {
+    background: #392e5c;
+}
+.container_books-product {
+    width: 1200px;
+    margin: auto;
+}
+.container_books-title h2 {
+    text-align: center;
+    font-weight: 700;
+    font-size: 1.75rem;
+    color: #dad8de;
+    padding-top: 50px;
+    margin-bottom: 10px;
+}
+.container_books-title p {
+    text-align: center;
+    color: #dad8de;
+    font-size: 1.20rem;
+}
+.source-search {
+    position: relative;
+}
+.source-search .search-input::after {
+    position: absolute;
+    content: url('../../assets/img/loupe.png');
+    z-index: 100;
+}

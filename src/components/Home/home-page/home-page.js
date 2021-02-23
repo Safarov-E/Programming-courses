@@ -31,6 +31,9 @@ export default class HomePage extends Component {
                                 <li>
                                     <a href="#" className="menu__link">Новости</a>
                                 </li>
+                                <li>
+                                    <a href="#" className="menu__link">Книги</a>
+                                </li>
                             </ul>
                         </nav>
                     </div>
