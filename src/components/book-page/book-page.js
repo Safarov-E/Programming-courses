@@ -37,7 +37,7 @@ export default class BookPage extends Component {
                                     return (
                                         <div className="product-card" key={item.id}>
                                             <img src={process.env.PUBLIC_URL + item.img} width="138px" height="199px" />
-                                            <p>{item['title'].length > 48 ? item['title'].slice( 0, 48 - 3 ) + '...' : item['title']}</p>
+                                            <p>{item['title'].length > 62 ? item['title'].slice( 0, 62 - 3 ) + '...' : item['title']}</p>
                                             <div className="product_card_button">
                                                 <a className="card_button_one" target="_blank">Подробнее</a>
                                                 <a href={item["more details"]} className="card_button_two" target="_blank">Читать</a>
