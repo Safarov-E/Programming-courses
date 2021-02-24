@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import logo from '../../../assets/img/logo.png'
+import {NavLink} from 'react-router-dom'
 import './home-page.css'
 
 export default class HomePage extends Component {
@@ -9,13 +10,13 @@ export default class HomePage extends Component {
             <header className="main-header">
                 <div className="main-header-container">
                     <div className="main-header-side">
-                        <span className="main-header-logo">
+                        <NavLink to="/" className="main-header-logo">
                             <img src={logo} width="130px"/>
-                        </span>
+                        </NavLink>
                         <nav className="menu">
                             <ul className="menu__list">
                                 <li>
-                                    <a href="#" className="menu__link menu__link-last">КАТЕГОРИИ</a>
+                                    <NavLink to="/" className="menu__link menu__link-last">КАТЕГОРИИ</NavLink>
                                     <ul className="sub-menu__list">
                                         <li>
                                             <a href="#" className="sub-menu__link">Новости 1</a>
@@ -29,10 +30,10 @@ export default class HomePage extends Component {
                                     </ul>
                                 </li>
                                 <li>
-                                    <a href="#" className="menu__link">Новости</a>
+                                    <NavLink to="/" className="menu__link">Новости</NavLink>
                                 </li>
                                 <li>
-                                    <a href="#" className="menu__link">Книги</a>
+                                    <NavLink to="/books" className="menu__link">Книги</NavLink>
                                 </li>
                             </ul>
                         </nav>

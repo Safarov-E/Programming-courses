@@ -8,7 +8,7 @@ export default class App extends Component {
         return (
             <>
                 <Route path="/" exact component={CategoryBlock} />
-                <Route path="/book" component={BookPage} />
+                <Route path="/books" component={BookPage} />
             </>
         )
     }
