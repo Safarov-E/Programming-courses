@@ -35,6 +35,9 @@ export default class HomePage extends Component {
                                 <li>
                                     <NavLink to="/books" className="menu__link">Книги</NavLink>
                                 </li>
+                                <li>
+                                    <NavLink to="/tests" className="menu__link">Тесты</NavLink>
+                                </li>
                             </ul>
                         </nav>
                     </div>

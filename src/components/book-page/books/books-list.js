@@ -8,8 +8,8 @@ const data = [
     {
         "id": 2,
         "img": "/img/2837165_detail.jpg",
-        "title": "Современный скрапинг веб-сайтов с помощью Python",
-        "more details": "https://vk.com/doc-162380315_462010810?hash=a8beb34f7fd87ce038&dl=897365e930c2d63cf7"
+        "title": "Java: оптимизация программ. Практические методы повышения производительности приложений в JVM",
+        "more details": "https://vk.com/doc7608079_590786528?hash=c16896001903b2cd9c"
     },
     {
         "id": 3,
