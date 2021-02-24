@@ -1,5 +1,6 @@
-.container_books {
+.container_books, .product_card_detail {
     background: #392e5c;
+    margin-top: 5px;
 }
 .container_books-product {
     width: 1200px;

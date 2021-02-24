@@ -1,8 +1,8 @@
 import React, { Component } from 'react'
-import HomePage from '../Home/home-page'
-import Footer from '../Home/footer'
-import loupe from '../../assets/img/loupe.png'
-import data from './books/books';
+import HomePage from '../../Home/home-page'
+import Footer from '../../Home/footer'
+import loupe from '../../../assets/img/loupe.png'
+import data from '../books/books';
 import './book-page.css'
 
 export default class BookPage extends Component {
