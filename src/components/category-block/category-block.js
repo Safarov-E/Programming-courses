@@ -16,6 +16,7 @@ import IconProgrammingTitle1 from '../../assets/img/0f483471fc5de0fc55d12a9cc626
 import IconProgrammingTitle2 from '../../assets/img/82298a46582c30688e1100c115c872e2.webp'
 import IconProgrammingTitle3 from '../../assets/img/75f7f135f11eb64f3f410110fd920b4a.webp'
 import IconProgrammingTitle4 from '../../assets/img/7a8e6dff611cd922d8e8c596115de97e.webp'
+import {Route} from 'react-router-dom'
 import './category-block.css'
 const categories = [
     {
