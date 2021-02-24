@@ -3,6 +3,7 @@ import HomePage from '../../Home/home-page'
 import Footer from '../../Home/footer'
 import loupe from '../../../assets/img/loupe.png'
 import data from '../books/books-list';
+import {Link} from 'react-router-dom'
 import './book-page.css'
 
 export default class BookPage extends Component {
@@ -39,7 +40,7 @@ export default class BookPage extends Component {
                                             <img src={process.env.PUBLIC_URL + item.img} width="138px" height="199px" />
                                             <p>{item['title'].length > 58 ? item['title'].slice( 0, 58 - 3 ) + '...' : item['title']}</p>
                                             <div className="product_card_button">
-                                                <a className="card_button_one" target="_blank">Подробнее</a>
+                                                <Link to={'/books/' + item.id} className="card_button_one" target="_blank">Подробнее</Link>
                                                 <a href={item["more details"]} className="card_button_two" target="_blank">Читать</a>
                                             </div>
                                         </div>
