@@ -15,7 +15,7 @@ export default class BookPage extends Component {
     }
     render() {
         let serachBook = data.filter((book) => {
-            return book.title.toLowerCase().indexOf(this.state.query) !== -1
+            return book.title.toLowerCase().indexOf(this.state.query.toLowerCase()) !== -1
         })
         return (
             <>
