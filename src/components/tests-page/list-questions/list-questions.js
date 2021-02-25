@@ -7,16 +7,38 @@ import './list-questions.css'
 
 export default class ListQuestions extends Component {
     state = {
-        activeQuestion: 0
+        activeQuestion: 0,
+        answerState: null,
     }
     onAnswerClickHandler = (answeId) => {
-        console.log(answeId)
-        this.setState({
-            activeQuestion: this.state.activeQuestion + 1
-        })
+        const question = data[this.state.activeQuestion]
+        if(question.rightAnswerId === answeId) {
+            this.setState({
+                answerState: {[answeId]: 'success'}
+            })
+            const timeout = window.setTimeout(() => {
+                if(this.isQuizFinished()) {
+                    console.log('Finished')
+                } else {
+                    this.setState({
+                        activeQuestion: this.state.activeQuestion + 1,
+                        answerState: null
+                    })
+                }
+
+                window.clearTimeout(timeout)
+            }, 1000)
+        } else {
+            this.setState({
+                answerState: {[answeId]: 'error'}
+            })
+        }
+    }
+    isQuizFinished() {
+        return this.state.activeQuestion + 1 === data.length
     }
     render() {
-        const {activeQuestion} = this.state
+        const {activeQuestion, answerState} = this.state
         return (
             <>
                 <HomePage />
@@ -31,7 +53,11 @@ export default class ListQuestions extends Component {
                                 quizLength={data.length} 
                                 answerNumber={activeQuestion + 1}
                             />
-                            <AnswersList answers={data[activeQuestion].answers} onAnswerClick={this.onAnswerClickHandler} />
+                            <AnswersList 
+                                answers={data[activeQuestion].answers} 
+                                onAnswerClick={this.onAnswerClickHandler}
+                                state={answerState}
+                            />
                         </div>
                     </div>
                 </div>

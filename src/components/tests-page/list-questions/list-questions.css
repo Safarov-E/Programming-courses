@@ -41,8 +41,14 @@
     font-size: 1.25rem;
     padding: 10px;
     cursor: pointer;
-    transition: ease-out 0.5s;
 }
-.test__form-list li:hover {
-    background: rgba(255, 255, 255, 0.411);
+.test__form-list:hover {
+    background: rgba(255, 255, 255, .2);
+    transition: background .3s ease-in-out;
+}
+.success {
+    background: rgba(161, 240, 69, .7)
+}
+.error {
+    background: rgba(240, 87, 108, .7)
 }
