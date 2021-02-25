@@ -26,6 +26,8 @@
 }
 .content__test__header p {
     margin-bottom: 20px;
+    max-width: 680px;
+    line-height: 25px;
 }
 .content__test__header p, .content__test__header span {
     color: #dad8de;

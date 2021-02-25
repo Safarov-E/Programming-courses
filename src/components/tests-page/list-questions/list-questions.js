@@ -1,9 +1,22 @@
 import React, { Component } from 'react'
 import HomePage from '../../Home/home-page'
+import Questions from './questions'
+import AnswersList from './answers-list'
+import data from '../quiz/quiz'
 import './list-questions.css'
 
 export default class ListQuestions extends Component {
+    state = {
+        activeQuestion: 0
+    }
+    onAnswerClickHandler = (answeId) => {
+        console.log(answeId)
+        this.setState({
+            activeQuestion: this.state.activeQuestion + 1
+        })
+    }
     render() {
+        const {activeQuestion} = this.state
         return (
             <>
                 <HomePage />
@@ -13,16 +26,12 @@ export default class ListQuestions extends Component {
                             <h2>Тест по основам HTML</h2>
                         </div>
                         <div className="content__test__form">
-                            <div className="content__test__header">
-                                <p>1. Какого цвета небо ?</p>
-                                <span>1 из 12</span>
-                            </div>
-                            <ul className="test__form-list">
-                                <li>rowspan</li>
-                                <li>colspan</li>
-                                <li>unity</li>
-                                <li>union</li>
-                            </ul>
+                            <Questions 
+                                question={data[activeQuestion].question} 
+                                quizLength={data.length} 
+                                answerNumber={activeQuestion + 1}
+                            />
+                            <AnswersList answers={data[activeQuestion].answers} onAnswerClick={this.onAnswerClickHandler} />
                         </div>
                     </div>
                 </div>
