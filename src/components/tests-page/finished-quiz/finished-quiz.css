@@ -15,6 +15,21 @@
     font-weight: 700;
     text-align: center;
     color: #dad8de;
+    cursor: pointer;
+}
+.return-quiz a {
+    color: #dad8de;
+    border: 1px solid #969494;
+    border-radius: 2px;
+    padding: 11px 20px;
+    font-weight: 700;
+    text-align: center;
+    cursor: pointer;
+    font-size: 14px;
+    margin-left: 15px;
+}
+.return-quiz a:hover {
+    border: 1px solid #7F00AC;;
 }
 .finished-quiz {
     color: #dad8de;

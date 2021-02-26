@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import {Link} from 'react-router-dom' 
 import './finished-quiz.css'
 
 export default class FinishedQuiz extends Component {
@@ -28,6 +29,7 @@ export default class FinishedQuiz extends Component {
                 <p>Правильно {successCount} из {quiz.length}</p>
                 <div className="return-quiz">
                     <button onClick={onRetry}>Повторить</button>
+                    <Link to="/tests">Перейти в список тестов</Link>
                 </div>
             </div>
         )

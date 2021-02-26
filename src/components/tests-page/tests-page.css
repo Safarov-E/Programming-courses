@@ -55,7 +55,7 @@
     max-width: 857px;
     line-height: 22px;
 }
-.test-list-description button {
+.test-list-description a {
     color: #dad8de;
     border-radius: 2px;
     padding: 5px 20px;
@@ -63,6 +63,7 @@
     outline: none;
     background-image: linear-gradient(134deg,#944fff 0,#af00ed 100%);
     font-weight: 700;
+    display: inline-block;
     margin-top: 14px;
 }
 .ts-category__container:last-child {

@@ -3,7 +3,7 @@ import HomePage from '../../Home/home-page'
 import Questions from './questions'
 import AnswersList from './answers-list'
 import FinishedQuiz from '../finished-quiz'
-import data from '../quiz/quiz'
+import Footer from '../../Home/footer'
 import './list-questions.css'
 
 export default class ListQuestions extends Component {
@@ -18,7 +18,7 @@ export default class ListQuestions extends Component {
             const key = Object.keys(this.state.answerState)[0]
             if(this.state.answerState[key] === 'success') return
         }
-        const question = data[this.state.activeQuestion]
+        const question = this.props.data[this.state.activeQuestion]
         const results = this.state.results
         if(question.rightAnswerId === answeId) {
             if(!results[question.id]) {
@@ -51,7 +51,7 @@ export default class ListQuestions extends Component {
         }
     }
     isQuizFinished() {
-        return this.state.activeQuestion + 1 === data.length
+        return this.state.activeQuestion + 1 === this.props.data.length
     }
     retryHandler = () => {
         this.setState({
@@ -63,7 +63,7 @@ export default class ListQuestions extends Component {
     }
     render() {
         const {activeQuestion, answerState, isFinished, results} = this.state
-        console.log(results)
+        const {textTest, data} = this.props
         return (
             <>
                 <HomePage />
@@ -78,7 +78,7 @@ export default class ListQuestions extends Component {
                                 />
                             : <>
                                 <div className="content__test-title">
-                                    <h2>Тест по основам HTML</h2>
+                                    <h2>{textTest}</h2>
                                 </div>
                                 <div className="content__test__form">
                                     <Questions 
@@ -96,6 +96,7 @@ export default class ListQuestions extends Component {
                         }
                     </div>
                 </div>
+                <Footer />
             </>
         )
     }
