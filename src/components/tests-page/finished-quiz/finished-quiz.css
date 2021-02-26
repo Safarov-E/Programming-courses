@@ -1,5 +1,4 @@
 .finished-quiz {
-    margin-top: 30px;
     border: 2px solid #fff;
     border-radius: 5px;
     padding: 40px 20px 30px;
@@ -7,7 +6,9 @@
 .return-quiz {
     margin-top: 20px;
 }
-.return-quiz a {
+.return-quiz button {
+    border: none;
+    outline: none;
     border-radius: 2px;
     padding: 11px 20px;
     background-image: linear-gradient(134deg,#944fff 0,#af00ed 100%);

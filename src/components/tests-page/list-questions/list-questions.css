@@ -1,11 +1,11 @@
 .content__block-test {
     background: #392e5c;
     height: 91vh;
+    padding-top: 30px;
 }
 .content__test-list {
     width: 800px;
     margin: auto;
-    padding-top: 30px;
 }
 .content__test-title h2 {
     text-align: center;
