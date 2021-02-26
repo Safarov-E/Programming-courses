@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import ListQuestions from '../list-questions'
 import data from '../quiz/sql'
 
-export default class PHPTest extends Component {
+export default class SQLTest extends Component {
     render() {
         return (
             <>

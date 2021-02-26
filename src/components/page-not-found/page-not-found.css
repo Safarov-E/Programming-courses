@@ -1,0 +1,26 @@
+.PageNotFound {
+    background: #392e5c;
+}
+.PageNotFound-container {
+    width: 900px;
+    margin: auto;
+}
+.PageNotFound-container h1 {
+    color: #dad8de;
+    font-weight: bold;
+    font-size: 300px;
+    text-align: center;
+    padding-top: 30px;
+}
+.PageNotFound-container p {
+    color: #dad8de;
+    font-weight: bold;
+    font-size: 100px;
+    text-align: center;
+}
+.PageNotFound-container img {
+    width: 300px;
+    margin: 20px auto 0;
+    display: block;
+    padding-bottom: 50px;
+}
