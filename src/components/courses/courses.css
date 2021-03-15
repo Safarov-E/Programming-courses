@@ -112,3 +112,10 @@
  ,#944fff 0,#af00ed 100%);
     font-weight: 700;
 }
+.nothing-found {
+    text-align: center;
+    font-weight: 700;
+    font-size: 1.75rem;
+    color: #dad8de;
+    margin: 100px 0;
+}

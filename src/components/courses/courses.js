@@ -9,7 +9,16 @@ import data from './categories/categories'
 import './courses.css'
 
 export default class CourseHtml extends Component {
+    state = {
+        query: ''
+    }
+    searchText = (event) => {
+        this.setState({query: event.target.value})
+    }
     render() {
+        let serachBook = data.filter((book) => {
+            return book.title.toLowerCase().indexOf(this.state.query.toLowerCase()) !== -1
+        })
         return (
             <>
                 <HomePage />
@@ -20,13 +29,14 @@ export default class CourseHtml extends Component {
                             <p className="course-block__description">Единая платформа для эффективного поиска онлайн-курсов</p>
                             <div className="course-block__source-search">
                                 <img src={search} />
-                                <input type="text" placeholder="Поиск" />
+                                <input type="text" placeholder="Поиск" onKeyUp={this.searchText}  />
                             </div>
                         </div>
                         <div className="product-list">
                             <h2 className="product-list__title">Все курсы</h2>
-                            {
-                                data.map((item, index) => {
+                            {   
+                                serachBook.length > 0 ?
+                                serachBook.map((item, index) => {
                                 return <div className="product-item" key={index}>
                                     <img src={item.img} width="360" height="220" />
                                     <div className="course-description">
@@ -53,6 +63,7 @@ export default class CourseHtml extends Component {
                                     </div>
                                 </div>
                                 })
+                                : <div className="nothing-found">Ничего не найдено</div>
                             }
                         </div>
                     </div>
