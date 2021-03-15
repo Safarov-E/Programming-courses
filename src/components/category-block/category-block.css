@@ -1,5 +1,6 @@
 .block-category {
     background: #392e5c;
+    min-height: calc(100vh - 300px);
     color: #dad8de;
 }
 .section-block-title {

@@ -1,0 +1,73 @@
+.course-block__search {
+    background: #392e5c;
+    padding-bottom: 100px;
+}
+.course-block__title {
+    padding-top: 100px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 1.75rem;
+    color: #dad8de;
+    margin-bottom: 20px;
+}
+.course-block__description {
+    text-align: center;
+    color: #dad8de;
+    font-size: 1.30rem;
+    margin-bottom: 40px;
+}
+.course-block__source-search {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    max-width: 640px;
+    margin: 0 auto;
+}
+.course-block__source-search img {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+.course-block__source-search input {
+    background-color: #201c2b;
+    border: 0;
+    outline: none;
+    color: #dad8de;
+    padding: 12px 0 12px 45px;
+    font-size: 18px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.product-list {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.product-list h2 {
+    font-weight: 700;
+    font-size: 1.75rem;
+    color: #dad8de;
+    margin: 40px 0;
+}
+.product-item {
+    display: flex;
+    box-shadow: 0 0 0 1px #7f00ac;
+}
+.course-description {
+    padding: 20px;
+}
+.course-description h3 {
+    font-size: 1.25rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #dad8de;
+    line-height: 27px;
+    margin-bottom: 11px;
+}
+.course-description > p {
+    color: #dad8de;
+    font-weight: 400;
+    font-size: 1.15rem;
+    line-height: 19px;
+    display: block;
+    margin-bottom: 11px;
+}
