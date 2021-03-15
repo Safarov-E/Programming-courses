@@ -1,5 +1,6 @@
 .PageNotFound {
     background: #392e5c;
+    min-height: calc(100vh - 300px);
 }
 .PageNotFound-container {
     width: 900px;
