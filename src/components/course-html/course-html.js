@@ -42,7 +42,7 @@ export default class CourseHtml extends Component {
                                             </div>
                                             <div className="course-duration">
                                                 <img src={lesson} width="20px" />
-                                                <span>17 уроков</span>
+                                                <span>Владилен Минин (vladilen.dev)</span>
                                             </div>
                                         </div>
                                         <a href="#">Посмотреть</a>
