@@ -63,3 +63,12 @@
  ,#944fff 0,#af00ed 100%);
     font-weight: 700;
 }
+.content-block-nothing-found {
+    justify-content: center;
+    text-align: center;
+    font-weight: 700;
+    font-size: 1.75rem;
+    color: #dad8de;
+    padding: 100px 0;
+    width: 100%;
+}
