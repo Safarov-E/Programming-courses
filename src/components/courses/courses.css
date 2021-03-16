@@ -113,9 +113,11 @@
     font-weight: 700;
 }
 .nothing-found {
+    justify-content: center;
     text-align: center;
     font-weight: 700;
     font-size: 1.75rem;
     color: #dad8de;
     margin: 100px 0;
+    width: 100%;
 }

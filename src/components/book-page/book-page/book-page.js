@@ -34,6 +34,7 @@ export default class BookPage extends Component {
                         </div>
                         <div className="container_cards">
                             {
+                                serachBook.length > 0 ?
                                 serachBook.map((item) => {
                                     return (
                                         <div className="product-card" key={item.id}>
@@ -46,6 +47,7 @@ export default class BookPage extends Component {
                                         </div>
                                     )
                                 })
+                                : <div className="nothing-found">Ничего не найдено</div>
                             }
                         </div>
                     </div>

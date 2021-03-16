@@ -11,6 +11,7 @@ import JSTest from '../tests-page/list-tests/javascript-test'
 import SQLTest from '../tests-page/list-tests/sql-test'
 import PageNotFound from '../page-not-found'
 import Courses from '../courses'
+import ListOfCourses from '../courses/list-of-courses'
 
 export default class App extends Component {
     render() {
@@ -26,6 +27,7 @@ export default class App extends Component {
                 <Route path="/tests/sql-test" exact component={SQLTest} />
                 <Route path="/books/:id" exact component={ProductPage} />
                 <Route path="/course" exact component={Courses} />
+                <Route path="/course/:id" exact component={ListOfCourses} />
                 <Route component={PageNotFound} />
             </Switch>
         )

@@ -6,6 +6,7 @@ import clock from '../../assets/img/clock.png'
 import playButton from '../../assets/img/play-button.png'
 import lesson from '../../assets/img/lesson.png'
 import data from './categories/categories'
+import {Link} from 'react-router-dom'
 import './courses.css'
 
 export default class CourseHtml extends Component {
@@ -58,7 +59,7 @@ export default class CourseHtml extends Component {
                                                     <span>{item.duration_two}</span>
                                                 </div>
                                             </div>
-                                            <a href="#">Посмотреть</a>
+                                            <Link to={'/course/' + item.id}>Посмотреть</Link>
                                         </div>
                                     </div>
                                 </div>
