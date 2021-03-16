@@ -25,14 +25,14 @@ export default class ListOfCourses extends Component {
                                                     return (
                                                         <div className="content-cards__item">
                                                             <img src={card.img} />
-                                                            <p className="cards-item__title">Урок 15. JavaScript. Все о Spread и Rest</p>
+                                                            <p className="cards-item__title">{card.title}</p>
                                                             <div className="cards-item__description">
-                                                                <p>24:08</p>
+                                                                <p>{card.time}</p>
                                                                 <a>Посмотреть</a>
                                                             </div>
                                                         </div>
                                                     )
-                                                }
+                                                })
                                             }
                                         </div>
                                     </div>

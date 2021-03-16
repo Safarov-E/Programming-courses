@@ -107,6 +107,176 @@ const data = [
                 "time": '16:39'
             }
         ]
+    },
+    {
+        "id": 2,
+        "title": "Основы PHP - уроки по PHP для новичков",
+        "description": "PHP — серверный язык программирования, применяется для разработки бэкенда. С помощью наших курсов вы познакомитесь с азами программирования на PHP, научитесь использовать объектно-ориентированное программирование (ООП) и работать с востребованными инструментами разработки, включая Lumen, Laravel, Composer, PHP Unit, Slim.",
+        "list": [
+            {
+                "id": '27',
+                "img": 'https://i1.ytimg.com/vi/Gftb3BcQKcA/mqdefault.jpg',
+                "title": 'Xampp. Установка локального web-сервера. Создание первого php-скрипта.',
+                "time": '10:18'
+            },
+            {
+                "id": '28',
+                "img": 'https://i1.ytimg.com/vi/f7J5kYuS1XU/mqdefault.jpg',
+                "title": 'Битва за 80 порт: веб-сервер, skype и windows 10',
+                "time": '04:59'
+            },
+            {
+                "id": '29',
+                "img": 'https://i1.ytimg.com/vi/vyz9TnuqZDE/mqdefault.jpg',
+                "title": 'Xampp - перенастраиваем 80-ый порт на любой другой',
+                "time": '04:04'
+            },
+            {
+                "id": '30',
+                "img": 'https://i1.ytimg.com/vi/Z0TYy6L0dr8/mqdefault.jpg',
+                "title": 'Основы PHP - урок 1. Локальный веб-сервер, синтаксис программ, переменные.',
+                "time": '1:56:36'
+            },
+            {
+                "id": '31',
+                "img": 'https://i1.ytimg.com/vi/kYlmY07CupI/mqdefault.jpg',
+                "title": 'Основы PHP - урок 2. Операции сравнения, логические операции, ветвления.',
+                "time": '1:45:42'
+            },
+            {
+                "id": '32',
+                "img": 'https://i1.ytimg.com/vi/1L2u9RkxJtc/mqdefault.jpg',
+                "title": 'Основы PHP - урок 3. Функции и циклы.',
+                "time": '1:39:36'
+            },
+            {
+                "id": '33',
+                "img": 'https://i1.ytimg.com/vi/9h0htMmsRvk/mqdefault.jpg',
+                "title": 'Основы PHP - урок 4. Циклы и массивы. GET и POST.',
+                "time": '1:55:43'
+            },
+            {
+                "id": '34',
+                "img": 'https://i1.ytimg.com/vi/UvzP7MWIsxs/mqdefault.jpg',
+                "title": 'Основы PHP - урок 5. Валидация формы, хранение информации.',
+                "time": '1:54:11'
+            },
+            {
+                "id": '35',
+                "img": 'https://i1.ytimg.com/vi/M08umlZZXY8/mqdefault.jpg',
+                "title": 'PHP: основы безопасности сайта. SQL-инъекции, XSS-атаки и защита от них.',
+                "time": '1:29:44'
+            },
+            {
+                "id": '36',
+                "img": 'https://i1.ytimg.com/vi/Lm_WmdLFceM/mqdefault.jpg',
+                "title": 'PHP - работа с файлами [пробный урок курса, часть 1]',
+                "time": '1:02:00'
+            },
+            {
+                "id": '37',
+                "img": 'https://i1.ytimg.com/vi/p8lMLn9b5sU/mqdefault.jpg',
+                "title": 'PHP - работа с файлами [пробный урок курса, часть 2]',
+                "time": '1:15:17'
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "title": "Курс по Wordpress",
+        "description": "WordPress — это самая популярная платформа для создания сайтов в мире, по данным на 2021 года, почти 37% всех веб-сайтов в Интернете используют WordPress!",
+        "list": [
+            {
+                "id": '38',
+                "img": 'https://i1.ytimg.com/vi/7NNtOXgNPBM/mqdefault.jpg',
+                "title": 'Курс по WordPress | Урок 1. Установка Wordpress | Академия вёрстки',
+                "time": '20:02'
+            },
+            {
+                "id": '39',
+                "img": 'https://i1.ytimg.com/vi/URFhyvZTENc/mqdefault.jpg',
+                "title": 'Курс по WordPress | Урок 2. Создание темы | Академия вёрстки',
+                "time": '49:40'
+            },
+            {
+                "id": '40',
+                "img": 'https://i1.ytimg.com/vi/JQcxO81ojBM/mqdefault.jpg',
+                "title": 'Урок 3. Регистрация меню в Wordpress | Курс по WordPress | Академия вёрстки',
+                "time": '24:24'
+            },
+            {
+                "id": '41',
+                "img": 'https://i1.ytimg.com/vi/_m1Fs7_va8E/mqdefault.jpg',
+                "title": 'Урок 4. Сайдбары Wordpress | Курс по WordPress | Академия вёрстки',
+                "time": '28:56'
+            },
+            {
+                "id": '42',
+                "img": 'https://i1.ytimg.com/vi/gIDId7lej80/mqdefault.jpg',
+                "title": 'Урок 5. Вывод постов | Курс по WordPress | Академия вёрстки',
+                "time": '27:31'
+            },
+            {
+                "id": '43',
+                "img": 'https://i1.ytimg.com/vi/L20CavV0Gqo/mqdefault.jpg',
+                "title": 'Урок 6. Еще раз про хуки. Шорткоды | Курс по WordPress | Академия вёрстки',
+                "time": '29:27'
+            },
+            {
+                "id": '44',
+                "img": 'https://i1.ytimg.com/vi/qt4d_5CFkGc/mqdefault.jpg',
+                "title": 'Курс по WordPress | Урок 7 Шаблоны постов, страниц | Академия вёрстки',
+                "time": '18:42'
+            },
+            {
+                "id": '45',
+                "img": 'https://i1.ytimg.com/vi/02qdcuttj3c/mqdefault.jpg',
+                "title": 'Курс по WordPress | Урок 8. Свои типы записей | Академия вёрстки',
+                "time": '22:14'
+            },
+            {
+                "id": '46',
+                "img": 'https://i1.ytimg.com/vi/U7Q6aB5u5b0/mqdefault.jpg',
+                "title": 'Курс по WordPress | Урок 9 Произвольные поля | Академия вёрстки',
+                "time": '14:13'
+            },
+            {
+                "id": '47',
+                "img": 'https://i1.ytimg.com/vi/7GNaMaRQkT0/mqdefault.jpg',
+                "title": 'Курс по WordPress | Урок 10 Таксономии | Академия вёрстки',
+                "time": '21:11'
+            },
+            {
+                "id": '48',
+                "img": 'https://i1.ytimg.com/vi/07pk1wHAxfY/mqdefault.jpg',
+                "title": 'Урок 11 Формы Wordpress | Курс по WordPress | Академия вёрстки',
+                "time": '44:43'
+            },
+            {
+                "id": '49',
+                "img": 'https://i1.ytimg.com/vi/Uzqz7ETy9L8/mqdefault.jpg',
+                "title": 'Курс по WordPress | Урок 12 Дочерние темы Wordpress | Академия вёрстки',
+                "time": '12:18'
+            },
+            {
+                "id": '50',
+                "img": 'https://i1.ytimg.com/vi/V3B43Lqufw0/mqdefault.jpg',
+                "title": 'Курс по WordPress | Урок 13 SEO для WordPress | Академия вёрстки',
+                "time": '17:52'
+            },
+            {
+                "id": '51',
+                "img": 'https://i1.ytimg.com/vi/fbQC7-EtH1M/mqdefault.jpg',
+                "title": 'Курс по WordPress | Урок 14 Оптимизация скорости загрузки сайта | Академия вёрстки',
+                "time": '29:45'
+            },
+            {
+                "id": '52',
+                "img": 'https://i1.ytimg.com/vi/5a4MCZwAgO8/mqdefault.jpg',
+                "title": 'Курс по WordPress | Урок 15 Создание темы на Unyson | Академия вёрстки',
+                "time": '45:43'
+            }
+        ]
     }
 ]
 export default data

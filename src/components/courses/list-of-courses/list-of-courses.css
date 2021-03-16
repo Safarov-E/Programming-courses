@@ -1,5 +1,7 @@
 .content-block {
     background: #392e5c;
+    padding-bottom: 100px;
+    min-height: calc(100vh - 300px);
 }
 .content-block__description {
     width: 1200px;
@@ -23,19 +25,25 @@
 }
 .description-cards__content {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-wrap: wrap;
     margin-top: 70px;
 }
 .content-cards__item {
     box-shadow: 0 0 0 1px #7f00ac;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     background: #201c2b;
 }
-.content-cards__item p {
+.content-cards__item > p {
     max-width: 290px;
     line-height: 25px;
     padding: 10px;
+    font-weight: 500;
+    font-size: 1.20rem;
+    color: #dad8de;
+    height: 95px;
+}
+.cards-item__description > p {
     font-weight: 500;
     font-size: 1.20rem;
     color: #dad8de;
