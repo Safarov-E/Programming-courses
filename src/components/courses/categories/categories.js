@@ -32,7 +32,7 @@ const data = [
     {
         "id": 4,
         "img": "https://i.ytimg.com/vi/OMsP7_bCAxY/maxresdefault.jpg",
-        "title": "TYPESCRIPT",
+        "title": "TypeScript",
         "description": "TypeScript",
         "description_two": "TypeScript — язык программирования, представленный Microsoft в 2012 году и позиционируемый как средство разработки веб-приложений, расширяющее возможности JavaScript",
         "time": ' 05:17:16',

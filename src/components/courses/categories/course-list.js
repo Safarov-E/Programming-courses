@@ -277,6 +277,254 @@ const data = [
                 "time": '45:43'
             }
         ]
+    },
+    {
+        "id": 4,
+        "title": "TypeScript",
+        "description": "TypeScript — это расширенная версия JavaScript, главной целью которого является упрощение разработки крупных JS-приложений. Этот язык добавляет много новых принципов — классы, дженерики, интерфейсы, статические типы, что позволяет разработчикам использовать разные инструменты, такие как статический анализатор или рефакторинг кода.",
+        "list": [
+            {
+                "id": '53',
+                "img": 'https://i1.ytimg.com/vi/OMsP7_bCAxY/mqdefault.jpg',
+                "title": 'TypeScript #1 Введение и настройка окружения',
+                "time": '10:58'
+            },
+            {
+                "id": '54',
+                "img": 'https://i1.ytimg.com/vi/DFMcFSLcAtw/mqdefault.jpg',
+                "title": 'TypeScript #2 Основные типы данных',
+                "time": '10:30'
+            },
+            {
+                "id": '55',
+                "img": 'https://i1.ytimg.com/vi/bi0w_aRD_1Q/mqdefault.jpg',
+                "title": 'TypeScript #3 Сигнатура и перегрузка функций',
+                "time": '10:13'
+            },
+            {
+                "id": '56',
+                "img": 'https://i1.ytimg.com/vi/qET8oEn_nu8/mqdefault.jpg',
+                "title": 'TypeScript #4 Приведение, объединение и пересечение типов данных',
+                "time": '13:09'
+            },
+            {
+                "id": '57',
+                "img": 'https://i1.ytimg.com/vi/xhncw1nRPUc/mqdefault.jpg',
+                "title": 'TypeScript #5 Массивы, кортежи и перечисления',
+                "time": '09:24'
+            },
+            {
+                "id": '58',
+                "img": 'https://i1.ytimg.com/vi/lVU6BY3cty4/mqdefault.jpg',
+                "title": 'TypeScript #6 Классы',
+                "time": '12:44'
+            },
+            {
+                "id": '59',
+                "img": 'https://i1.ytimg.com/vi/0RUAMYdz9l0/mqdefault.jpg',
+                "title": 'TypeScript #7 Наследование классов',
+                "time": '14:22'
+            },
+            {
+                "id": '60',
+                "img": 'https://i1.ytimg.com/vi/jLyUeK72d70/mqdefault.jpg',
+                "title": 'TypeScript #8 Реализация интерфейсов',
+                "time": '09:36'
+            },
+            {
+                "id": '61',
+                "img": 'https://i1.ytimg.com/vi/0zmMHXoUzRo/mqdefault.jpg',
+                "title": 'TypeScript #9 Абстрактные классы',
+                "time": '05:25'
+            },
+            {
+                "id": '62',
+                "img": 'https://i1.ytimg.com/vi/X492_WJgQhI/mqdefault.jpg',
+                "title": 'TypeScript #10 Модификаторы доступа',
+                "time": '05:25'
+            },
+            {
+                "id": '63',
+                "img": 'https://i1.ytimg.com/vi/jKN-VqWQdlY/mqdefault.jpg',
+                "title": 'TypeScript #11 Пространства имен',
+                "time": '16:01'
+            },
+            {
+                "id": '64',
+                "img": 'https://i1.ytimg.com/vi/Q5YPUIFqijQ/mqdefault.jpg',
+                "title": 'TypeScript #12 Обобщенные типы (Generics)',
+                "time": '29:58'
+            },
+            {
+                "id": '65',
+                "img": 'https://i1.ytimg.com/vi/BTB3VDkWiOQ/mqdefault.jpg',
+                "title": 'TypeScript #13 Утилиты (часть 1)',
+                "time": '21:43'
+            },
+            {
+                "id": '66',
+                "img": 'https://i1.ytimg.com/vi/6JIKbG58u2M/mqdefault.jpg',
+                "title": 'TypeScript #14 Утилиты (часть 2)',
+                "time": '11:24'
+            },
+            {
+                "id": '67',
+                "img": 'https://i1.ytimg.com/vi/1ihVXpmOC5c/mqdefault.jpg',
+                "title": 'TypeScript #15 Утилиты (часть 3)',
+                "time": '11:04'
+            },
+            {
+                "id": '68',
+                "img": 'https://i1.ytimg.com/vi/synKle_wvVU/mqdefault.jpg',
+                "title": 'TypeScript #16 Тип BigInt и дополнение пройденного материала',
+                "time": '12:04'
+            },
+            {
+                "id": '69',
+                "img": 'https://i1.ytimg.com/vi/Rty2Db4r838/mqdefault.jpg',
+                "title": 'TypeScript #17 Операторы ?. и ??',
+                "time": '10:06'
+            },
+            {
+                "id": '70',
+                "img": 'https://i1.ytimg.com/vi/bO1R4SnE8r8/mqdefault.jpg',
+                "title": 'TypeScript #18 Оператор ! и пользовательские проверки типов',
+                "time": '11:10'
+            },
+            {
+                "id": '71',
+                "img": 'https://i1.ytimg.com/vi/hbL2wsWSWd4/mqdefault.jpg',
+                "title": 'TypeScript #19 Настройка webpack',
+                "time": '26:38'
+            },
+            {
+                "id": '72',
+                "img": 'https://i1.ytimg.com/vi/FckYXsuMnrM/mqdefault.jpg',
+                "title": 'TypeScript #20 Сторонние библиотеки и файлы декларации',
+                "time": '10:44'
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "title": "NODE JS",
+        "description": "Изучаем Node.js для работы на стороне сервера. Если вы хотите начать программировать не только клиент но и сервер - курс для вас. В курсе рассмотрены основные моменты работы с бекенд приложением - сервер, запросы, работа с файлами, базами данных. Курс подойдет для тех, кто никогда не изучал backend.",
+        "list": [
+            {
+                "id": '73',
+                "img": 'https://i1.ytimg.com/vi/XZe6_tzJY6g/mqdefault.jpg',
+                "title": 'Курс Node.js - для тех, кто хочет начать бекенд разработку',
+                "time": '07:56'
+            },
+            {
+                "id": '74',
+                "img": 'https://i1.ytimg.com/vi/ysg9kakXL5o/mqdefault.jpg',
+                "title": 'NodeJS. 02. Как учиться на курсе Node.js. Правила курса',
+                "time": '06:25'
+            },
+            {
+                "id": '75',
+                "img": 'https://i1.ytimg.com/vi/hMUotiiz_iw/mqdefault.jpg',
+                "title": 'NodeJS. 03. Установка и первая программа',
+                "time": '10:33'
+            },
+            {
+                "id": '76',
+                "img": 'https://i1.ytimg.com/vi/5-YfjWaLj2w/mqdefault.jpg',
+                "title": 'NodeJS. 04. Дебаг программ на Node.js',
+                "time": '19:24'
+            },
+            {
+                "id": '77',
+                "img": 'https://i1.ytimg.com/vi/1gWQf2WLnT8/mqdefault.jpg',
+                "title": 'NodeJS. 05. Передача параметров в Node.js',
+                "time": '12:02'
+            },
+            {
+                "id": '78',
+                "img": 'https://i1.ytimg.com/vi/LQOQ_MGbRns/mqdefault.jpg',
+                "title": 'NodeJS. 06. Читаем папки и файлы. Создаем файлы.',
+                "time": '23:47'
+            },
+            {
+                "id": '79',
+                "img": 'https://i1.ytimg.com/vi/ch02G5Arkd0/mqdefault.jpg',
+                "title": 'Читаем и пишем CSV и JSON файлы в Node.js',
+                "time": '22:30'
+            },
+            {
+                "id": '80',
+                "img": 'https://i1.ytimg.com/vi/YMJDUHUccvA/mqdefault.jpg',
+                "title": 'Получение GET и POST запросов на Node.js',
+                "time": '23:50'
+            },
+            {
+                "id": '81',
+                "img": 'https://i1.ytimg.com/vi/YhuozY-qplI/mqdefault.jpg',
+                "title": 'Подключение к базе данных MySQL в Node.js',
+                "time": '23:04'
+            },
+            {
+                "id": '82',
+                "img": 'https://i1.ytimg.com/vi/6IMq2QqBm8Q/mqdefault.jpg',
+                "title": 'Роутинг на Node.JS',
+                "time": '13:37'
+            },
+            {
+                "id": '83',
+                "img": 'https://i1.ytimg.com/vi/p7k5Clof13U/mqdefault.jpg',
+                "title": 'Последовательные запросы в базу данных на Node.js',
+                "time": '14:06'
+            },
+            {
+                "id": '84',
+                "img": 'https://i1.ytimg.com/vi/1PkarXC-9TQ/mqdefault.jpg',
+                "title": 'Модули Node.js, require',
+                "time": '20:39'
+            },
+            {
+                "id": '85',
+                "img": 'https://i1.ytimg.com/vi/n9DY1U4EQq0/mqdefault.jpg',
+                "title": 'Проект на pure Node.js - загрузка файлов на сервер # 1',
+                "time": '19:20'
+            },
+            {
+                "id": '86',
+                "img": 'https://i1.ytimg.com/vi/Zxq0kzK1qMQ/mqdefault.jpg',
+                "title": 'Загрузка файлов на сервер. Часть 1',
+                "time": '08:46'
+            },
+            {
+                "id": '87',
+                "img": 'https://i1.ytimg.com/vi/OGiePuJqq2M/mqdefault.jpg',
+                "title": 'Загрузка файла на сервер на чистой Node.js ( часть 2)',
+                "time": '23:33'
+            },
+            {
+                "id": '88',
+                "img": 'https://i1.ytimg.com/vi/J64xx7YP8WM/mqdefault.jpg',
+                "title": 'Загрузка файлов на Node.js ( часть 5)',
+                "time": '10:53'
+            },
+            {
+                "id": '89',
+                "img": 'https://i1.ytimg.com/vi/dHoWlAiA8CY/mqdefault.jpg',
+                "title": 'Сохраняем данные из формы в базу. Sequelize. Node.js',
+                "time": '25:38'
+            },
+            {
+                "id": '90',
+                "img": 'https://i1.ytimg.com/vi/JVz6nfER5rA/mqdefault.jpg',
+                "title": 'Установка Node приложений на сервер. Руками #1',
+                "time": '27:48'
+            },
+            {
+                "id": '92',
+                "img": 'https://i1.ytimg.com/vi/MfR8gPtrMKo/mqdefault.jpg',
+                "title": 'Установка Node приложений на сервер. Руками #2',
+                "time": '12:06'
+            }
+        ]
     }
 ]
 export default data
