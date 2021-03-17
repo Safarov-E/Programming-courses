@@ -9,7 +9,7 @@ import './video-lessons.css'
 
 export default class VideoLessons extends Component {
     render() {
-        const {title, subtitles, duration, lessons, source, description, data, params} = this.props;
+        const {title, subtitles, duration, lessons, source, description, data, params, id} = this.props;
         return (
             <>
                 <HomePage />
@@ -66,7 +66,7 @@ export default class VideoLessons extends Component {
                                                     <p>Урок {index + 1}</p>
                                                     <span>{item.time}</span>
                                                 </div>
-                                                <Link to={'/course/' + '1/' + item.id}>{item.title}</Link>
+                                                <Link to={'/course/' + id + '/' + item.id}>{item.title}</Link>
                                             </div>
                                     }) 
                                 }

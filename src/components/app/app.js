@@ -12,7 +12,8 @@ import SQLTest from '../tests-page/list-tests/sql-test'
 import PageNotFound from '../page-not-found'
 import Courses from '../courses'
 import ListOfCourses from '../courses/list-of-courses'
-import JavaScriptLessons from '../courses/video-lessons/javascript-lessons/javascript-lessons'
+import JavaScriptLessons from '../courses/video-lessons/lessons/javascript-lessons'
+import PHPLessons from '../courses/video-lessons/lessons/php-lessons'
 
 export default class App extends Component {
     render() {
@@ -30,6 +31,7 @@ export default class App extends Component {
                 <Route path="/course" exact component={Courses} />
                 <Route path="/course/:id" exact component={ListOfCourses} />
                 <Route path="/course/1/:num" exact component={JavaScriptLessons} />
+                <Route path="/course/2/:num" exact component={PHPLessons} />
                 <Route component={PageNotFound} />
             </Switch>
         )

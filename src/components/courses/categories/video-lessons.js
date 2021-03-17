@@ -102,4 +102,74 @@ const data1 = [
         "time": '16:39'
     }
 ]
-export { data1 }
+
+const data2 = [
+    {
+        "id": '27',
+        "src": 'https://www.youtube.com/embed/Gftb3BcQKcA',
+        "title": 'Xampp. Установка локального web-сервера. Создание первого php-скрипта.',
+        "time": '10:18'
+    },
+    {
+        "id": '28',
+        "src": 'https://www.youtube.com/embed/f7J5kYuS1XU',
+        "title": 'Битва за 80 порт: веб-сервер, skype и windows 10',
+        "time": '04:59'
+    },
+    {
+        "id": '29',
+        "src": 'https://www.youtube.com/embed/vyz9TnuqZDE',
+        "title": 'Xampp - перенастраиваем 80-ый порт на любой другой',
+        "time": '04:04'
+    },
+    {
+        "id": '30',
+        "src": 'https://www.youtube.com/embed/Z0TYy6L0dr8',
+        "title": 'Основы PHP - урок 1. Локальный веб-сервер, синтаксис программ, переменные.',
+        "time": '1:56:36'
+    },
+    {
+        "id": '31',
+        "src": 'https://www.youtube.com/embed/kYlmY07CupI',
+        "title": 'Основы PHP - урок 2. Операции сравнения, логические операции, ветвления.',
+        "time": '1:45:42'
+    },
+    {
+        "id": '32',
+        "src": 'https://www.youtube.com/embed/1L2u9RkxJtc',
+        "title": 'Основы PHP - урок 3. Функции и циклы.',
+        "time": '1:39:36'
+    },
+    {
+        "id": '33',
+        "src": 'https://www.youtube.com/embed/9h0htMmsRvk',
+        "title": 'Основы PHP - урок 4. Циклы и массивы. GET и POST.',
+        "time": '1:55:43'
+    },
+    {
+        "id": '34',
+        "src": 'https://www.youtube.com/embed/UvzP7MWIsxs',
+        "title": 'Основы PHP - урок 5. Валидация формы, хранение информации.',
+        "time": '1:54:11'
+    },
+    {
+        "id": '35',
+        "src": 'https://www.youtube.com/embed/M08umlZZXY8',
+        "title": 'PHP: основы безопасности сайта. SQL-инъекции, XSS-атаки и защита от них.',
+        "time": '1:29:44'
+    },
+    {
+        "id": '36',
+        "src": 'https://www.youtube.com/embed/Lm_WmdLFceM',
+        "title": 'PHP - работа с файлами [пробный урок курса, часть 1]',
+        "time": '1:02:00'
+    },
+    {
+        "id": '37',
+        "src": 'https://www.youtube.com/embed/p8lMLn9b5sU',
+        "title": 'PHP - работа с файлами [пробный урок курса, часть 2]',
+        "time": '1:15:17'
+    }
+]
+
+export { data1, data2 }

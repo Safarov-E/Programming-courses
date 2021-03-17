@@ -22,14 +22,14 @@ export default class ListOfCourses extends Component {
                                         </div>
                                         <div className="description-cards__content">
                                             {
-                                                item.list.map((card, index) => {
+                                                item.list.map((card) => {
                                                     return (
-                                                        <div className="content-cards__item">
+                                                        <div className="content-cards__item" key={card.id}>
                                                             <img src={card.img} />
                                                             <p className="cards-item__title">{card.title}</p>
                                                             <div className="cards-item__description">
                                                                 <p>{card.time}</p>
-                                                                <Link to={'/course/' + '1/' + card.id}>Посмотреть</Link>
+                                                                <Link to={'/course/' + item.id + '/' + card.id}>Посмотреть</Link>
                                                             </div>
                                                         </div>
                                                     )
