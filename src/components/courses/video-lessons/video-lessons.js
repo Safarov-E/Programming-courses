@@ -47,38 +47,38 @@ export default class VideoLessons extends Component {
                             </div>
                         </div>
                         <div className="video-lesson-block">
-                            <iframe width="740" height="425" src="https://www.youtube.com/embed/eKCD9djJQKc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <iframe width="800" height="455" src="https://www.youtube.com/embed/eKCD9djJQKc" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
                             <div className="video-lesson-scroll">
                                 <div className="video-lesson-info">
-                                    <div className="video-lesson-info">
+                                    <div className="video-wrap-info">
                                         <p>Урок 1</p>
                                         <span>08:15</span>
                                     </div>
                                     <h3>Установка редактора кода Sublime Text 3, Emmet в Windows</h3>
                                 </div>
                                 <div className="video-lesson-info">
-                                    <div className="video-lesson-info">
+                                    <div className="video-wrap-info">
                                         <p>Урок 1</p>
                                         <span>08:15</span>
                                     </div>
                                     <h3>Установка редактора кода Sublime Text 3, Emmet в Windows</h3>
                                 </div>
                                 <div className="video-lesson-info">
-                                    <div className="video-lesson-info">
+                                    <div className="video-wrap-info">
                                         <p>Урок 1</p>
                                         <span>08:15</span>
                                     </div>
                                     <h3>Установка редактора кода Sublime Text 3, Emmet в Windows</h3>
                                 </div>
                                 <div className="video-lesson-info">
-                                    <div className="video-lesson-info">
+                                    <div className="video-wrap-info">
                                         <p>Урок 1</p>
                                         <span>08:15</span>
                                     </div>
                                     <h3>Установка редактора кода Sublime Text 3, Emmet в Windows</h3>
                                 </div>
                                 <div className="video-lesson-info">
-                                    <div className="video-lesson-info">
+                                    <div className="video-wrap-info">
                                         <p>Урок 1</p>
                                         <span>08:15</span>
                                     </div>

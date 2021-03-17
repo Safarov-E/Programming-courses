@@ -55,6 +55,39 @@
 }
 .video-lesson-block {
     display: flex;
-    width: 1300px;
+    width: 1170px;
     margin: 180px auto 100px;
+}
+.video-lesson-info {
+    padding: 10px;
+    border-bottom: 1px solid #d8d8d8;
+}
+.video-wrap-info {
+    display: flex;
+    justify-content: space-between;
+}
+.video-lesson-scroll {
+    max-width: 425px;
+    max-width: 350px;
+    overflow-y: scroll;
+    padding-left: 24px;
+}
+.video-lesson-info p {
+    color: #969494;
+    font-size: .90rem;
+    font-weight: 500;
+    line-height: 16px;
+    text-transform: uppercase;
+}
+.video-lesson-info span {
+    color: #dad8de;
+    font-size: .9rem;
+    line-height: 16px;
+    font-weight: 400;
+}
+.video-lesson-info h3 {
+    padding-top: 5px;
+    color: #dad8de;
+    font-size: 1.1rem;
+    line-height: 19px;
 }
