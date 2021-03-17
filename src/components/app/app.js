@@ -21,6 +21,7 @@ import HtmlLessons from '../courses/video-lessons/lessons/html-lessons'
 import CsslLessons from '../courses/video-lessons/lessons/css-lessons'
 import PythonLessons from '../courses/video-lessons/lessons/python-lessons'
 import JavaLessons from '../courses/video-lessons/lessons/java-lessons'
+import VueLessons from '../courses/video-lessons/lessons/vue-lessons'
 
 export default class App extends Component {
     render() {
@@ -46,6 +47,7 @@ export default class App extends Component {
                 <Route path="/course/7/:num" exact component={CsslLessons} />
                 <Route path="/course/8/:num" exact component={PythonLessons} />
                 <Route path="/course/9/:num" exact component={JavaLessons} />
+                <Route path="/course/10/:num" exact component={VueLessons} />
                 <Route component={PageNotFound} />
             </Switch>
         )

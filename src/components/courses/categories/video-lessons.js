@@ -805,4 +805,139 @@ const data9 = [
     }
 ]
 
-export { data1, data2, data3, data4, data5, data6, data7, data8, data9 }
+const data10 = [
+    {
+        "id": '141',
+        "src": 'https://www.youtube.com/embed/LOmcsf5IylI',
+        "title": 'Делаем простое REST приложение с нуля. Spring Boot REST',
+        "time": '15:41'
+    },
+    {
+        "id": '142',
+        "src": 'https://www.youtube.com/embed/VwVRGpoGT5M',
+        "title": 'Vue.js - базовый JavaScript интерфейс для REST приложения (часть 1). Spring Boot REST',
+        "time": '16:07'
+    },
+    {
+        "id": '143',
+        "src": 'https://www.youtube.com/embed/E0S1ZrQP0-Y',
+        "title": 'Vue.js - отображение и изменение данных с сервера (часть 2). Spring Boot REST',
+        "time": '15:12'
+    },
+    {
+        "id": '144',
+        "src": 'https://www.youtube.com/embed/mGfiV9WDd6Y',
+        "title": 'Подключаем базу данных, настраиваем Jackson. Spring Boot REST',
+        "time": '15:26'
+    },
+    {
+        "id": '145',
+        "src": 'https://www.youtube.com/embed/-ohlXEJeRX8',
+        "title": 'Подключаем Spring Security и oAuth2. Spring Boot REST',
+        "time": '13:10'
+    },
+    {
+        "id": '146',
+        "src": 'https://www.youtube.com/embed/B0887PLJuSY',
+        "title": 'Настраиваем Spring Security и oAuth2 в Vue.js. Spring Boot REST',
+        "time": '12:55'
+    },
+    {
+        "id": '147',
+        "src": 'https://www.youtube.com/embed/y5zxAriT0UA',
+        "title": 'Настраиваем Webpack и разбиваем фронт на модули. Spring Boot REST',
+        "time": '18:38'
+    },
+    {
+        "id": '148',
+        "src": 'https://www.youtube.com/embed/TtcCbDddhrI',
+        "title": 'Подключаем WebSocket (SockJS + Stomp). Spring Boot REST',
+        "time": '20:15'
+    },
+    {
+        "id": '149',
+        "src": 'https://www.youtube.com/embed/jmpxRAGJ5v0',
+        "title": 'Стилизуем приложение с Vuetify (Material design). Spring Boot REST',
+        "time": '18:59'
+    },
+    {
+        "id": '150',
+        "src": 'https://www.youtube.com/embed/pJTO0sLki_c',
+        "title": 'Сериализуем с JsonView при отправке через WebSocket. Spring Boot REST',
+        "time": '20:49'
+    },
+    {
+        "id": '151',
+        "src": 'https://www.youtube.com/embed/AMb2QeeRtPM',
+        "title": 'Настраиваем Vuex. Централизованное хранилище. Spring Boot REST',
+        "time": '22:07'
+    },
+    {
+        "id": '152',
+        "src": 'https://www.youtube.com/embed/DdCoFwiRCsw',
+        "title": 'Vue Router. Роутинг в браузере. Spring Boot REST',
+        "time": '22:51'
+    },
+    {
+        "id": '153',
+        "src": 'https://www.youtube.com/embed/ZM8XkFOebuc',
+        "title": 'Open Graph Protocol: превью ссылок на сайте по микроразметке. Spring Boot Rest',
+        "time": '20:16'
+    },
+    {
+        "id": '154',
+        "src": 'https://www.youtube.com/embed/b2a4rVR5hiQ',
+        "title": 'Комментарии с JPA Entity Graph. Spring Boot Rest',
+        "time": '28:53'
+    },
+    {
+        "id": '155',
+        "src": 'https://www.youtube.com/embed/fS4gR8gttes',
+        "title": 'Решение циклических ссылок в JSON. Vue debug. Spring Boot Rest',
+        "time": '19:18'
+    },
+    {
+        "id": '156',
+        "src": 'https://www.youtube.com/embed/lqQKNgFZvfI',
+        "title": 'Бесконечная прокрутка списков. Spring Boot Rest',
+        "time": '23:38'
+    },
+    {
+        "id": '157',
+        "src": 'https://www.youtube.com/embed/P9oy1F1mi_k',
+        "title": 'Подписки пользователей. Spring Boot Rest',
+        "time": '26:34'
+    },
+    {
+        "id": '158',
+        "src": 'https://www.youtube.com/embed/bVAWMZTD8pI',
+        "title": 'Подписки с подтверждением. Spring Boot Rest',
+        "time": '17:03'
+    },
+    {
+        "id": '159',
+        "src": 'https://www.youtube.com/embed/x3Zwl4QilvA',
+        "title": 'Подписки с подтверждением: фронтенд. Spring Boot Rest',
+        "time": '18:30'
+    },
+    {
+        "id": '160',
+        "src": 'https://www.youtube.com/embed/JrY2MezfUX4',
+        "title": 'Sentry: собираем ошибки от пользователей. Spring Boot Rest',
+        "time": '21:31'
+    },
+    {
+        "id": '161',
+        "src": 'https://www.youtube.com/embed/zZ7Z7aL2WFk',
+        "title": 'Собираем JAR с Vue.js внутри. Spring Boot Rest',
+        "time": '15:31'
+    },
+    {
+        "id": '162',
+        "src": 'https://www.youtube.com/embed/q7e4A9pfNrk',
+        "title": 'Публикация на Heroku. Spring Boot Rest',
+        "time": '14:08'
+    }
+]
+
+export { data1, data2, data3, data4, data5, data6, data7, data8, data9, data10 }
