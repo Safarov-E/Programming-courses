@@ -14,6 +14,8 @@ import Courses from '../courses'
 import ListOfCourses from '../courses/list-of-courses'
 import JavaScriptLessons from '../courses/video-lessons/lessons/javascript-lessons'
 import PHPLessons from '../courses/video-lessons/lessons/php-lessons'
+import WordPressLessons from '../courses/video-lessons/lessons/wordpress-lessons'
+import TypeScriptLessons from '../courses/video-lessons/lessons/typescript-lessons'
 
 export default class App extends Component {
     render() {
@@ -32,6 +34,8 @@ export default class App extends Component {
                 <Route path="/course/:id" exact component={ListOfCourses} />
                 <Route path="/course/1/:num" exact component={JavaScriptLessons} />
                 <Route path="/course/2/:num" exact component={PHPLessons} />
+                <Route path="/course/3/:num" exact component={WordPressLessons} />
+                <Route path="/course/4/:num" exact component={TypeScriptLessons} />
                 <Route component={PageNotFound} />
             </Switch>
         )

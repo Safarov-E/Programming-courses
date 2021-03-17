@@ -172,4 +172,220 @@ const data2 = [
     }
 ]
 
-export { data1, data2 }
+const data3 = [
+    {
+        "id": '38',
+        "src": 'https://www.youtube.com/embed/7NNtOXgNPBM',
+        "title": 'Курс по WordPress | Урок 1. Установка Wordpress | Академия вёрстки',
+        "time": '20:02'
+    },
+    {
+        "id": '39',
+        "src": 'https://www.youtube.com/embed/URFhyvZTENc',
+        "title": 'Курс по WordPress | Урок 2. Создание темы | Академия вёрстки',
+        "time": '49:40'
+    },
+    {
+        "id": '40',
+        "src": 'https://www.youtube.com/embed/JQcxO81ojBM',
+        "title": 'Урок 3. Регистрация меню в Wordpress | Курс по WordPress | Академия вёрстки',
+        "time": '24:24'
+    },
+    {
+        "id": '41',
+        "src": 'https://www.youtube.com/embed/_m1Fs7_va8E',
+        "title": 'Урок 4. Сайдбары Wordpress | Курс по WordPress | Академия вёрстки',
+        "time": '28:56'
+    },
+    {
+        "id": '42',
+        "src": 'https://www.youtube.com/embed/gIDId7lej80',
+        "title": 'Урок 5. Вывод постов | Курс по WordPress | Академия вёрстки',
+        "time": '27:31'
+    },
+    {
+        "id": '43',
+        "src": 'https://www.youtube.com/embed/L20CavV0Gqo',
+        "title": 'Урок 6. Еще раз про хуки. Шорткоды | Курс по WordPress | Академия вёрстки',
+        "time": '29:27'
+    },
+    {
+        "id": '44',
+        "src": 'https://www.youtube.com/embed/qt4d_5CFkGc',
+        "title": 'Курс по WordPress | Урок 7 Шаблоны постов, страниц | Академия вёрстки',
+        "time": '18:42'
+    },
+    {
+        "id": '45',
+        "src": 'https://www.youtube.com/embed/02qdcuttj3c',
+        "title": 'Курс по WordPress | Урок 8. Свои типы записей | Академия вёрстки',
+        "time": '22:14'
+    },
+    {
+        "id": '46',
+        "src": 'https://www.youtube.com/embed/U7Q6aB5u5b0',
+        "title": 'Курс по WordPress | Урок 9 Произвольные поля | Академия вёрстки',
+        "time": '14:13'
+    },
+    {
+        "id": '47',
+        "src": 'https://www.youtube.com/embed/7GNaMaRQkT0',
+        "title": 'Курс по WordPress | Урок 10 Таксономии | Академия вёрстки',
+        "time": '21:11'
+    },
+    {
+        "id": '48',
+        "src": 'https://www.youtube.com/embed/07pk1wHAxfY',
+        "title": 'Урок 11 Формы Wordpress | Курс по WordPress | Академия вёрстки',
+        "time": '44:43'
+    },
+    {
+        "id": '49',
+        "src": 'https://www.youtube.com/embed/Uzqz7ETy9L8',
+        "title": 'Курс по WordPress | Урок 12 Дочерние темы Wordpress | Академия вёрстки',
+        "time": '12:18'
+    },
+    {
+        "id": '50',
+        "src": 'https://www.youtube.com/embed/V3B43Lqufw0',
+        "title": 'Курс по WordPress | Урок 13 SEO для WordPress | Академия вёрстки',
+        "time": '17:52'
+    },
+    {
+        "id": '51',
+        "src": 'https://www.youtube.com/embed/fbQC7-EtH1M',
+        "title": 'Курс по WordPress | Урок 14 Оптимизация скорости загрузки сайта | Академия вёрстки',
+        "time": '29:45'
+    },
+    {
+        "id": '52',
+        "src": 'https://www.youtube.com/embed/5a4MCZwAgO8',
+        "title": 'Курс по WordPress | Урок 15 Создание темы на Unyson | Академия вёрстки',
+        "time": '45:43'
+    }
+]
+
+const data4 = [
+    {
+        "id": '53',
+        "src": 'https://www.youtube.com/embed/OMsP7_bCAxY',
+        "title": 'TypeScript #1 Введение и настройка окружения',
+        "time": '10:58'
+    },
+    {
+        "id": '54',
+        "src": 'https://www.youtube.com/embed/DFMcFSLcAtw',
+        "title": 'TypeScript #2 Основные типы данных',
+        "time": '10:30'
+    },
+    {
+        "id": '55',
+        "src": 'https://www.youtube.com/embed/bi0w_aRD_1Q',
+        "title": 'TypeScript #3 Сигнатура и перегрузка функций',
+        "time": '10:13'
+    },
+    {
+        "id": '56',
+        "src": 'https://www.youtube.com/embed/qET8oEn_nu8',
+        "title": 'TypeScript #4 Приведение, объединение и пересечение типов данных',
+        "time": '13:09'
+    },
+    {
+        "id": '57',
+        "src": 'https://www.youtube.com/embed/xhncw1nRPUc',
+        "title": 'TypeScript #5 Массивы, кортежи и перечисления',
+        "time": '09:24'
+    },
+    {
+        "id": '58',
+        "src": 'https://www.youtube.com/embed/lVU6BY3cty4',
+        "title": 'TypeScript #6 Классы',
+        "time": '12:44'
+    },
+    {
+        "id": '59',
+        "src": 'https://www.youtube.com/embed/0RUAMYdz9l0',
+        "title": 'TypeScript #7 Наследование классов',
+        "time": '14:22'
+    },
+    {
+        "id": '60',
+        "src": 'https://www.youtube.com/embed/jLyUeK72d70',
+        "title": 'TypeScript #8 Реализация интерфейсов',
+        "time": '09:36'
+    },
+    {
+        "id": '61',
+        "src": 'https://www.youtube.com/embed/0zmMHXoUzRo',
+        "title": 'TypeScript #9 Абстрактные классы',
+        "time": '05:25'
+    },
+    {
+        "id": '62',
+        "src": 'https://www.youtube.com/embed/X492_WJgQhI',
+        "title": 'TypeScript #10 Модификаторы доступа',
+        "time": '05:25'
+    },
+    {
+        "id": '63',
+        "src": 'https://www.youtube.com/embed/jKN-VqWQdlY',
+        "title": 'TypeScript #11 Пространства имен',
+        "time": '16:01'
+    },
+    {
+        "id": '64',
+        "src": 'https://www.youtube.com/embed/Q5YPUIFqijQ',
+        "title": 'TypeScript #12 Обобщенные типы (Generics)',
+        "time": '29:58'
+    },
+    {
+        "id": '65',
+        "img": 'https://i1.ytimg.com/vi/BTB3VDkWiOQ/mqdefault.jpg',
+        "title": 'TypeScript #13 Утилиты (часть 1)',
+        "time": '21:43'
+    },
+    {
+        "id": '66',
+        "img": 'https://i1.ytimg.com/vi/6JIKbG58u2M/mqdefault.jpg',
+        "title": 'TypeScript #14 Утилиты (часть 2)',
+        "time": '11:24'
+    },
+    {
+        "id": '67',
+        "img": 'https://i1.ytimg.com/vi/1ihVXpmOC5c/mqdefault.jpg',
+        "title": 'TypeScript #15 Утилиты (часть 3)',
+        "time": '11:04'
+    },
+    {
+        "id": '68',
+        "img": 'https://i1.ytimg.com/vi/synKle_wvVU/mqdefault.jpg',
+        "title": 'TypeScript #16 Тип BigInt и дополнение пройденного материала',
+        "time": '12:04'
+    },
+    {
+        "id": '69',
+        "img": 'https://i1.ytimg.com/vi/Rty2Db4r838/mqdefault.jpg',
+        "title": 'TypeScript #17 Операторы ?. и ??',
+        "time": '10:06'
+    },
+    {
+        "id": '70',
+        "img": 'https://i1.ytimg.com/vi/bO1R4SnE8r8/mqdefault.jpg',
+        "title": 'TypeScript #18 Оператор ! и пользовательские проверки типов',
+        "time": '11:10'
+    },
+    {
+        "id": '71',
+        "img": 'https://i1.ytimg.com/vi/hbL2wsWSWd4/mqdefault.jpg',
+        "title": 'TypeScript #19 Настройка webpack',
+        "time": '26:38'
+    },
+    {
+        "id": '72',
+        "img": 'https://i1.ytimg.com/vi/FckYXsuMnrM/mqdefault.jpg',
+        "title": 'TypeScript #20 Сторонние библиотеки и файлы декларации',
+        "time": '10:44'
+    }
+]
+
+export { data1, data2, data3, data4 }
