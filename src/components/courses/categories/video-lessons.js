@@ -388,4 +388,121 @@ const data4 = [
     }
 ]
 
-export { data1, data2, data3, data4 }
+const data5 = [
+    {
+        "id": '73',
+        "src": 'https://www.youtube.com/embed/XZe6_tzJY6g',
+        "title": 'Курс Node.js - для тех, кто хочет начать бекенд разработку',
+        "time": '07:56'
+    },
+    {
+        "id": '74',
+        "src": 'https://www.youtube.com/embed/ysg9kakXL5o',
+        "title": 'NodeJS. 02. Как учиться на курсе Node.js. Правила курса',
+        "time": '06:25'
+    },
+    {
+        "id": '75',
+        "src": 'https://www.youtube.com/embed/hMUotiiz_iw',
+        "title": 'NodeJS. 03. Установка и первая программа',
+        "time": '10:33'
+    },
+    {
+        "id": '76',
+        "src": 'https://www.youtube.com/embed/5-YfjWaLj2w',
+        "title": 'NodeJS. 04. Дебаг программ на Node.js',
+        "time": '19:24'
+    },
+    {
+        "id": '77',
+        "src": 'https://www.youtube.com/embed/1gWQf2WLnT8',
+        "title": 'NodeJS. 05. Передача параметров в Node.js',
+        "time": '12:02'
+    },
+    {
+        "id": '78',
+        "src": 'https://www.youtube.com/embed/LQOQ_MGbRns',
+        "title": 'NodeJS. 06. Читаем папки и файлы. Создаем файлы.',
+        "time": '23:47'
+    },
+    {
+        "id": '79',
+        "src": 'https://www.youtube.com/embed/ch02G5Arkd0',
+        "title": 'Читаем и пишем CSV и JSON файлы в Node.js',
+        "time": '22:30'
+    },
+    {
+        "id": '80',
+        "src": 'https://www.youtube.com/embed/YMJDUHUccvA',
+        "title": 'Получение GET и POST запросов на Node.js',
+        "time": '23:50'
+    },
+    {
+        "id": '81',
+        "src": 'https://www.youtube.com/embed/YhuozY-qplI',
+        "title": 'Подключение к базе данных MySQL в Node.js',
+        "time": '23:04'
+    },
+    {
+        "id": '82',
+        "src": 'https://www.youtube.com/embed/6IMq2QqBm8Q',
+        "title": 'Роутинг на Node.JS',
+        "time": '13:37'
+    },
+    {
+        "id": '83',
+        "src": 'https://www.youtube.com/embed/p7k5Clof13U',
+        "title": 'Последовательные запросы в базу данных на Node.js',
+        "time": '14:06'
+    },
+    {
+        "id": '84',
+        "src": 'https://www.youtube.com/embed/1PkarXC-9TQ',
+        "title": 'Модули Node.js, require',
+        "time": '20:39'
+    },
+    {
+        "id": '85',
+        "src": 'https://www.youtube.com/embed/n9DY1U4EQq0',
+        "title": 'Проект на pure Node.js - загрузка файлов на сервер # 1',
+        "time": '19:20'
+    },
+    {
+        "id": '86',
+        "src": 'https://www.youtube.com/embed/Zxq0kzK1qMQ',
+        "title": 'Загрузка файлов на сервер. Часть 1',
+        "time": '08:46'
+    },
+    {
+        "id": '87',
+        "src": 'https://www.youtube.com/embed/OGiePuJqq2M',
+        "title": 'Загрузка файла на сервер на чистой Node.js ( часть 2)',
+        "time": '23:33'
+    },
+    {
+        "id": '88',
+        "src": 'https://www.youtube.com/embed/J64xx7YP8WM',
+        "title": 'Загрузка файлов на Node.js ( часть 5)',
+        "time": '10:53'
+    },
+    {
+        "id": '89',
+        "src": 'https://www.youtube.com/embed/dHoWlAiA8CY',
+        "title": 'Сохраняем данные из формы в базу. Sequelize. Node.js',
+        "time": '25:38'
+    },
+    {
+        "id": '90',
+        "src": 'https://www.youtube.com/embed/JVz6nfER5rA',
+        "title": 'Установка Node приложений на сервер. Руками #1',
+        "time": '27:48'
+    },
+    {
+        "id": '92',
+        "src": 'https://www.youtube.com/embed/MfR8gPtrMKo',
+        "title": 'Установка Node приложений на сервер. Руками #2',
+        "time": '12:06'
+    }
+]
+
+export { data1, data2, data3, data4, data5 }
