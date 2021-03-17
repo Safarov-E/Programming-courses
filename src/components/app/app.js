@@ -12,6 +12,7 @@ import SQLTest from '../tests-page/list-tests/sql-test'
 import PageNotFound from '../page-not-found'
 import Courses from '../courses'
 import ListOfCourses from '../courses/list-of-courses'
+import VideoLessons from '../courses/video-lessons'
 
 export default class App extends Component {
     render() {
@@ -28,6 +29,7 @@ export default class App extends Component {
                 <Route path="/books/:id" exact component={ProductPage} />
                 <Route path="/course" exact component={Courses} />
                 <Route path="/course/:id" exact component={ListOfCourses} />
+                <Route path="/video" exact component={VideoLessons} />
                 <Route component={PageNotFound} />
             </Switch>
         )

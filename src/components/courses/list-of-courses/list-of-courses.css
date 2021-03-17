@@ -62,6 +62,7 @@
 134deg
  ,#944fff 0,#af00ed 100%);
     font-weight: 700;
+    cursor: pointer;
 }
 .content-block-nothing-found {
     justify-content: center;
