@@ -18,6 +18,7 @@ import WordPressLessons from '../courses/video-lessons/lessons/wordpress-lessons
 import TypeScriptLessons from '../courses/video-lessons/lessons/typescript-lessons'
 import NodeLessons from '../courses/video-lessons/lessons/node-lessons'
 import HtmlLessons from '../courses/video-lessons/lessons/html-lessons'
+import CsslLessons from '../courses/video-lessons/lessons/css-lessons'
 
 export default class App extends Component {
     render() {
@@ -40,6 +41,7 @@ export default class App extends Component {
                 <Route path="/course/4/:num" exact component={TypeScriptLessons} />
                 <Route path="/course/5/:num" exact component={NodeLessons} />
                 <Route path="/course/6/:num" exact component={HtmlLessons} />
+                <Route path="/course/7/:num" exact component={CsslLessons} />
                 <Route component={PageNotFound} />
             </Switch>
         )

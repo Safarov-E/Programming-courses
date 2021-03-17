@@ -574,4 +574,145 @@ const data6 = [
     }
 ]
 
-export { data1, data2, data3, data4, data5, data6 }
+const data7 = [
+    {
+        "id": '104',
+        "src": 'https://www.youtube.com/embed/IsZDtOYUWvk',
+        "title": 'Уроки по CSS/CSS3. Часть 1. Введение',
+        "time": '06:21'
+    },
+    {
+        "id": '105',
+        "src": 'https://www.youtube.com/embed/osbbcmvFwDY',
+        "title": 'Уроки по CSS/CSS3. Часть 2. Основные понятия',
+        "time": '10:53'
+    },
+    {
+        "id": '106',
+        "src": 'https://www.youtube.com/embed/EPgc-1DyT7E',
+        "title": 'Уроки по CSS/CSS3. Часть 3. Селекторы',
+        "time": '17:22'
+    },
+    {
+        "id": '107',
+        "src": 'https://www.youtube.com/embed/eZingxnTQ90',
+        "title": 'Уроки по CSS/CSS3. Часть 4. Позиционирование элементов',
+        "time": '24:36'
+    },
+    {
+        "id": '108',
+        "src": 'https://www.youtube.com/embed/tf8S5EJWeVs',
+        "title": 'Уроки по CSS/CSS3. Часть 5. Текст',
+        "time": '14:02'
+    },
+    {
+        "id": '109',
+        "src": 'https://www.youtube.com/embed/PP-koTzIm6k',
+        "title": 'Уроки по CSS/CSS3. Часть 6. Цвет',
+        "time": '07:09'
+    },
+    {
+        "id": '110',
+        "src": 'https://www.youtube.com/embed/Vzqk04xXDp8',
+        "title": 'Уроки по CSS/CSS3. Часть 7. Рамки',
+        "time": '05:18'
+    },
+    {
+        "id": '111',
+        "src": 'https://www.youtube.com/embed/w3XIlmheKfk',
+        "title": 'Уроки по CSS/CSS3. Часть 8. Закругленные углы (border-radius)',
+        "time": '06:50'
+    },
+    {
+        "id": '112',
+        "src": 'https://www.youtube.com/embed/_3v_5BZK_L0',
+        "title": 'Уроки по CSS/CSS3. Часть 9. Треугольники',
+        "time": '07:48'
+    },
+    {
+        "id": '113',
+        "src": 'https://www.youtube.com/embed/OtGBFm8CmQc',
+        "title": 'Уроки по CSS/CSS3. Часть 10. Фон и множественные фоны',
+        "time": '10:12'
+    },
+    {
+        "id": '114',
+        "src": 'https://www.youtube.com/embed/e-EkBx-CNqo',
+        "title": 'Уроки по CSS/CSS3. Часть 11. Спрайты',
+        "time": '07:09'
+    },
+    {
+        "id": '115',
+        "src": 'https://www.youtube.com/embed/hHRQSEXqfE0',
+        "title": 'Уроки по CSS/CSS3. Часть 12. Плавающие элементы (float) и clearfix',
+        "time": '07:34'
+    },
+    {
+        "id": '116',
+        "src": 'https://www.youtube.com/embed/0WDxaY7DhnE',
+        "title": 'Уроки по CSS/CSS3. Часть 13. Списки',
+        "time": '03:39'
+    },
+    {
+        "id": '117',
+        "src": 'https://www.youtube.com/embed/iEW3IVqpJm0',
+        "title": 'Уроки по CSS/CSS3. Часть 14. Тени (box-shadow)',
+        "time": '09:06'
+    },
+    {
+        "id": '118',
+        "src": 'https://www.youtube.com/embed/QKRmRpq5CQc',
+        "title": 'Уроки по CSS/CSS3. Часть 15. Плавные переходы (transition)',
+        "time": '16:49'
+    },
+    {
+        "id": '119',
+        "src": 'https://www.youtube.com/embed/PnIC49TDEJ4',
+        "title": 'Уроки по CSS/CSS3. Часть 16. Градиенты',
+        "time": '11:08'
+    },
+    {
+        "id": '120',
+        "src": 'https://www.youtube.com/embed/OmlHKURlvhg',
+        "title": 'Уроки по CSS/CSS3. Часть 17. Трансформации (transform)',
+        "time": '12:53'
+    },
+    {
+        "id": '121',
+        "src": 'https://www.youtube.com/embed/fzubePyhPok',
+        "title": 'Уроки по CSS/CSS3. Часть 18. Трехмерный куб на CSS3',
+        "time": '11:32'
+    },
+    {
+        "id": '122',
+        "src": 'https://www.youtube.com/embed/5Yzkz9xknQU',
+        "title": 'Уроки по CSS/CSS3. Часть 19. Анимации (animation)',
+        "time": '14:37'
+    },
+    {
+        "id": '123',
+        "src": 'https://www.youtube.com/embed/QDGUmrtZMMM',
+        "title": 'Уроки по CSS/CSS3. Часть 20. @font-face',
+        "time": '10:21'
+    },
+    {
+        "id": '124',
+        "src": 'https://www.youtube.com/embed/WxDtaSYeU-k',
+        "title": 'Уроки по CSS/CSS3. Часть 21. Медиазапросы (media queries)',
+        "time": '07:22'
+    },
+    {
+        "id": '125',
+        "src": 'https://www.youtube.com/embed/3MfxQAt49dE',
+        "title": 'Уроки по CSS/CSS3. Часть 22. Верстка сайта',
+        "time": '12:58'
+    },
+    {
+        "id": '126',
+        "src": 'https://www.youtube.com/embed/TgeDUb4ZmOc',
+        "title": 'Уроки по CSS/CSS3. Часть 23. Многоколоночный текст',
+        "time": '03:39'
+    }
+]
+
+export { data1, data2, data3, data4, data5, data6, data7 }
