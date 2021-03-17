@@ -340,49 +340,49 @@ const data4 = [
     },
     {
         "id": '65',
-        "img": 'https://i1.ytimg.com/vi/BTB3VDkWiOQ/mqdefault.jpg',
+        "src": 'https://www.youtube.com/embed/BTB3VDkWiOQ',
         "title": 'TypeScript #13 Утилиты (часть 1)',
         "time": '21:43'
     },
     {
         "id": '66',
-        "img": 'https://i1.ytimg.com/vi/6JIKbG58u2M/mqdefault.jpg',
+        "src": 'https://www.youtube.com/embed/6JIKbG58u2M',
         "title": 'TypeScript #14 Утилиты (часть 2)',
         "time": '11:24'
     },
     {
         "id": '67',
-        "img": 'https://i1.ytimg.com/vi/1ihVXpmOC5c/mqdefault.jpg',
+        "src": 'https://www.youtube.com/embed/1ihVXpmOC5c',
         "title": 'TypeScript #15 Утилиты (часть 3)',
         "time": '11:04'
     },
     {
         "id": '68',
-        "img": 'https://i1.ytimg.com/vi/synKle_wvVU/mqdefault.jpg',
+        "src": 'https://www.youtube.com/embed/synKle_wvVU',
         "title": 'TypeScript #16 Тип BigInt и дополнение пройденного материала',
         "time": '12:04'
     },
     {
         "id": '69',
-        "img": 'https://i1.ytimg.com/vi/Rty2Db4r838/mqdefault.jpg',
+        "src": 'https://www.youtube.com/embed/Rty2Db4r838',
         "title": 'TypeScript #17 Операторы ?. и ??',
         "time": '10:06'
     },
     {
         "id": '70',
-        "img": 'https://i1.ytimg.com/vi/bO1R4SnE8r8/mqdefault.jpg',
+        "src": 'https://www.youtube.com/embed/bO1R4SnE8r8',
         "title": 'TypeScript #18 Оператор ! и пользовательские проверки типов',
         "time": '11:10'
     },
     {
         "id": '71',
-        "img": 'https://i1.ytimg.com/vi/hbL2wsWSWd4/mqdefault.jpg',
+        "src": 'https://www.youtube.com/embed/hbL2wsWSWd4',
         "title": 'TypeScript #19 Настройка webpack',
         "time": '26:38'
     },
     {
         "id": '72',
-        "img": 'https://i1.ytimg.com/vi/FckYXsuMnrM/mqdefault.jpg',
+        "src": 'https://www.youtube.com/embed/FckYXsuMnrM',
         "title": 'TypeScript #20 Сторонние библиотеки и файлы декларации',
         "time": '10:44'
     }
