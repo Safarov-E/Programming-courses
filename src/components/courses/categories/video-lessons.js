@@ -760,4 +760,49 @@ const data8 = [
     }
 ]
 
-export { data1, data2, data3, data4, data5, data6, data7, data8 }
+const data9 = [
+    {
+        "id": '134',
+        "src": 'https://www.youtube.com/embed/iK97P8DQeOU',
+        "title": '1. Введение в Java | Технострим',
+        "time": '55:16'
+    },
+    {
+        "id": '135',
+        "src": 'https://www.youtube.com/embed/frG61XB0RRA',
+        "title": '2. Введение в Java. Обьектно-ориентированное программирование | Технострим',
+        "time": '50:26'
+    },
+    {
+        "id": '136',
+        "src": 'https://www.youtube.com/embed/nfFeOg-tIxc',
+        "title": '3. Введение в Java. Обработка ошибок и исключения | Технострим',
+        "time": '55:56'
+    },
+    {
+        "id": '137',
+        "src": 'https://www.youtube.com/embed/FRmgcBxJvb4',
+        "title": '4. Введение в Java. Generics. Wildcards | Технострим',
+        "time": '43:09'
+    },
+    {
+        "id": '138',
+        "src": 'https://www.youtube.com/embed/CslvBw0JM38',
+        "title": '5. Введение в Java. Input/Output | Технострим',
+        "time": '45:42'
+    },
+    {
+        "id": '139',
+        "src": 'https://www.youtube.com/embed/4Lv3ABg3VEA',
+        "title": '6. Введение в Java. Collections Framework | Технострим',
+        "time": '57:29'
+    },
+    {
+        "id": '140',
+        "src": 'https://www.youtube.com/embed/FfLRFWKUYLU',
+        "title": '7. Введение в Java. Упорядоченные коллекции. Алгоритмы. Reflections | Технострим',
+        "time": '1:00:54'
+    }
+]
+
+export { data1, data2, data3, data4, data5, data6, data7, data8, data9 }

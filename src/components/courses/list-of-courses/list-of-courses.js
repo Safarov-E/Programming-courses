@@ -37,11 +37,7 @@ export default class ListOfCourses extends Component {
                                             }
                                         </div>
                                     </div>
-                                    : index === 1 ? 
-                                        <div className="content-block__description" key={index}>
-                                            <div className="content-block-nothing-found">Ничего не найдено</div>
-                                        </div>
-                                        : null
+                                    : null
                                 )
                             })
                         }
