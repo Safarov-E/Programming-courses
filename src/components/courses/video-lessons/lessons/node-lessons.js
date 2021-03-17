@@ -2,7 +2,7 @@ import React, {Component} from 'react'
 import VideoLessons from '../video-lessons'
 import {data5} from '../../categories/video-lessons'
 
-export default class NodePressLessons extends Component {
+export default class NodeLessons extends Component {
     render() {
         return (
             <VideoLessons 

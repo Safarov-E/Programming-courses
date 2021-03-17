@@ -505,4 +505,73 @@ const data5 = [
     }
 ]
 
-export { data1, data2, data3, data4, data5 }
+const data6 = [
+    {
+        "id": '93',
+        "src": 'https://www.youtube.com/embed/8mK5aY5YOCc',
+        "title": 'HTML для начинающих - #1 - Введение',
+        "time": '10:18'
+    },
+    {
+        "id": '94',
+        "src": 'https://www.youtube.com/embed/oBKaXB9CMMo',
+        "title": 'HTML для начинающих - #2 - Теги и атрибуты',
+        "time": '17:11'
+    },
+    {
+        "id": '95',
+        "src": 'https://www.youtube.com/embed/fgeANjiWwKg',
+        "title": 'HTML для начинающих - #3 - Списки',
+        "time": '09:20'
+    },
+    {
+        "id": '96',
+        "src": 'https://www.youtube.com/embed/BYnpSIdqXt8',
+        "title": 'HTML для начинающих - #4 - Таблицы',
+        "time": '13:47'
+    },
+    {
+        "id": '97',
+        "src": 'https://www.youtube.com/embed/ydxgOZG0BUI',
+        "title": 'HTML для начинающих - #5 - Фрэймы',
+        "time": '08:44'
+    },
+    {
+        "id": '98',
+        "src": 'https://www.youtube.com/embed/nF0X9PRVOsA',
+        "title": 'HTML для начинающих - #6 - Ссылки',
+        "time": '08:35'
+    },
+    {
+        "id": '99',
+        "src": 'https://www.youtube.com/embed/nxtV-PwYkjU',
+        "title": 'HTML для начинающих - #7 - Атрибуты.Часть 1',
+        "time": '09:13'
+    },
+    {
+        "id": '100',
+        "src": 'https://www.youtube.com/embed/jZR8m9djWXs',
+        "title": 'HTML для начинающих - #8 - Атрибуты. Часть 2',
+        "time": '12:26'
+    },
+    {
+        "id": '101',
+        "src": 'https://www.youtube.com/embed/abWbB4RYFYM',
+        "title": 'HTML для начинающих - #9 - Формы. Введение',
+        "time": '10:05'
+    },
+    {
+        "id": '102',
+        "src": 'https://www.youtube.com/embed/x55mwoVJ_IE',
+        "title": 'HTML для начинающих - #10 - Формы. Часть 2',
+        "time": '18:53'
+    },
+    {
+        "id": '103',
+        "src": 'https://www.youtube.com/embed/LOphfrzuxtc',
+        "title": 'HTML для начинающих - #11 - Семантические особенности HTML5',
+        "time": '11:12'
+    }
+]
+
+export { data1, data2, data3, data4, data5, data6 }
