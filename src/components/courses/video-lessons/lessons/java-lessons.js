@@ -2,7 +2,7 @@ import React, {Component} from 'react'
 import VideoLessons from '../video-lessons'
 import {data8} from '../../categories/video-lessons'
 
-export default class PythonLessons extends Component {
+export default class JavaLessons extends Component {
     render() {
         return (
             <VideoLessons 

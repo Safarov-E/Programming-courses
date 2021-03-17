@@ -715,4 +715,49 @@ const data7 = [
     }
 ]
 
-export { data1, data2, data3, data4, data5, data6, data7 }
+const data8 = [
+    {
+        "id": '127',
+        "src": 'https://www.youtube.com/embed/-R_VR_Y5g8c',
+        "title": 'Python Starter. Урок 1. Введение в Python.',
+        "time": '1:19:16'
+    },
+    {
+        "id": '128',
+        "src": 'https://www.youtube.com/embed/oNErj26DAW0',
+        "title": 'Python Starter. Урок 2. Переменные и типы данных.',
+        "time": '36:47'
+    },
+    {
+        "id": '129',
+        "src": 'https://www.youtube.com/embed/Y1eUt2wonq0',
+        "title": 'Python Starter. Урок 3. Условные конструкции.',
+        "time": '21:07'
+    },
+    {
+        "id": '130',
+        "src": 'https://www.youtube.com/embed/-A2sq4EI8fo',
+        "title": 'Python Starter. Урок 4. Циклические конструкции.',
+        "time": '21:50'
+    },
+    {
+        "id": '131',
+        "src": 'https://www.youtube.com/embed/PYX-oix82fM',
+        "title": 'Python Starter. Урок 5. Функции (часть 1).',
+        "time": '23:08'
+    },
+    {
+        "id": '132',
+        "src": 'https://www.youtube.com/embed/KSL_32HvBew',
+        "title": 'Python Starter. Урок 6. Функции (часть 2).',
+        "time": '23:07'
+    },
+    {
+        "id": '133',
+        "src": 'https://www.youtube.com/embed/H3lpUEjFBeE',
+        "title": 'Python Starter. Урок 7. Списки.',
+        "time": '11:26'
+    }
+]
+
+export { data1, data2, data3, data4, data5, data6, data7, data8 }
