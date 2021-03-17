@@ -1,3 +1,6 @@
+.container-video {
+    min-height: calc(100vh - 300px);
+}
 .container-video-page {
     background: #392e5c;
 }
@@ -67,8 +70,8 @@
     justify-content: space-between;
 }
 .video-lesson-scroll {
-    max-width: 425px;
     max-width: 350px;
+    max-height: 450px;
     overflow-y: scroll;
     padding-left: 24px;
 }
@@ -85,9 +88,11 @@
     line-height: 16px;
     font-weight: 400;
 }
-.video-lesson-info h3 {
-    padding-top: 5px;
+.video-lesson-info a {
+    display: block;
+    padding-top: 10px;
     color: #dad8de;
     font-size: 1.1rem;
     line-height: 19px;
+    cursor: pointer;
 }

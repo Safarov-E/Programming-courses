@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import HomePage from '../../Home/home-page'
 import Footer from '../../Home/footer'
 import data from '../../courses/categories/course-list'
+import {Link} from 'react-router-dom'
 import './list-of-courses.css'
 
 export default class ListOfCourses extends Component {
@@ -28,7 +29,7 @@ export default class ListOfCourses extends Component {
                                                             <p className="cards-item__title">{card.title}</p>
                                                             <div className="cards-item__description">
                                                                 <p>{card.time}</p>
-                                                                <a>Посмотреть</a>
+                                                                <Link to={'/course/' + '1/' + card.id}>Посмотреть</Link>
                                                             </div>
                                                         </div>
                                                     )
